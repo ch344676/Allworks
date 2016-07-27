@@ -1,0 +1,2441 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'google-auth-library',
+1 verbose cli   '--save' ]
+2 info using npm@3.8.6
+3 info using node@v5.12.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData google-auth-library
+8 silly fetchNamedPackageData google-auth-library
+9 silly mapToRegistry name google-auth-library
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'google-auth-library',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   name: 'google-auth-library',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/google-auth-library
+14 verbose request uri https://registry.npmjs.org/google-auth-library
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 6:50:09 AM
+17 verbose request id f65fe9355f2a20da
+18 verbose etag "6O2VOQ4O1GTMRLUGY1CCZWUDV"
+19 http request GET https://registry.npmjs.org/google-auth-library
+20 http 304 https://registry.npmjs.org/google-auth-library
+21 verbose headers { date: 'Tue, 26 Jul 2016 06:50:16 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   etag: '"6O2VOQ4O1GTMRLUGY1CCZWUDV"',
+21 verbose headers   age: '219',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+21 verbose headers   'x-cache': 'HIT',
+21 verbose headers   'x-cache-hits': '1',
+21 verbose headers   'x-timer': 'S1469515816.566482,VS0,VE0',
+21 verbose headers   vary: 'Accept-Encoding' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Tue, 26 Jul 2016 06:50:16 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     etag: '"6O2VOQ4O1GTMRLUGY1CCZWUDV"',
+22 silly get     age: '219',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-sin6926-SIN',
+22 silly get     'x-cache': 'HIT',
+22 silly get     'x-cache-hits': '1',
+22 silly get     'x-timer': 'S1469515816.566482,VS0,VE0',
+22 silly get     vary: 'Accept-Encoding' } ]
+23 verbose etag https://registry.npmjs.org/google-auth-library from cache
+24 verbose get saving google-auth-library to /home/vagrant/.npm/registry.npmjs.org/google-auth-library/.cache.json
+25 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule google-auth-library@0.9.8 checking installable status
+39 silly cache add args [ 'google-auth-library', null ]
+40 verbose cache add spec google-auth-library
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'google-auth-library',
+41 silly cache add   scope: null,
+41 silly cache add   name: 'google-auth-library',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed google-auth-library@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for google-auth-library
+44 info addNameTag [ 'google-auth-library', 'latest' ]
+45 silly mapToRegistry name google-auth-library
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'google-auth-library',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   name: 'google-auth-library',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/google-auth-library
+50 verbose addNameTag registry:https://registry.npmjs.org/google-auth-library not in flight; fetching
+51 verbose get https://registry.npmjs.org/google-auth-library not expired, no request
+52 silly addNameTag next cb for google-auth-library with tag latest
+53 silly addNamed google-auth-library@0.9.8
+54 verbose addNamed "0.9.8" is a plain semver version for google-auth-library
+55 silly cache afterAdd google-auth-library@0.9.8
+56 verbose afterAdd /home/vagrant/.npm/google-auth-library/0.9.8/package/package.json not in flight; writing
+57 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+58 verbose afterAdd /home/vagrant/.npm/google-auth-library/0.9.8/package/package.json written
+59 silly fetchNamedPackageData async
+60 silly mapToRegistry name async
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry data Result {
+63 silly mapToRegistry   raw: 'async',
+63 silly mapToRegistry   scope: null,
+63 silly mapToRegistry   name: 'async',
+63 silly mapToRegistry   rawSpec: '',
+63 silly mapToRegistry   spec: 'latest',
+63 silly mapToRegistry   type: 'tag' }
+64 silly mapToRegistry uri https://registry.npmjs.org/async
+65 silly fetchNamedPackageData request
+66 silly mapToRegistry name request
+67 silly mapToRegistry using default registry
+68 silly mapToRegistry registry https://registry.npmjs.org/
+69 silly mapToRegistry data Result {
+69 silly mapToRegistry   raw: 'request',
+69 silly mapToRegistry   scope: null,
+69 silly mapToRegistry   name: 'request',
+69 silly mapToRegistry   rawSpec: '',
+69 silly mapToRegistry   spec: 'latest',
+69 silly mapToRegistry   type: 'tag' }
+70 silly mapToRegistry uri https://registry.npmjs.org/request
+71 silly fetchNamedPackageData string-template
+72 silly mapToRegistry name string-template
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry data Result {
+75 silly mapToRegistry   raw: 'string-template',
+75 silly mapToRegistry   scope: null,
+75 silly mapToRegistry   name: 'string-template',
+75 silly mapToRegistry   rawSpec: '',
+75 silly mapToRegistry   spec: 'latest',
+75 silly mapToRegistry   type: 'tag' }
+76 silly mapToRegistry uri https://registry.npmjs.org/string-template
+77 verbose request uri https://registry.npmjs.org/async
+78 verbose request no auth needed
+79 info attempt registry request try #1 at 6:50:17 AM
+80 verbose etag "C9MU828GPC5SRFQUR9JMXKLDU"
+81 http request GET https://registry.npmjs.org/async
+82 verbose request uri https://registry.npmjs.org/request
+83 verbose request no auth needed
+84 info attempt registry request try #1 at 6:50:17 AM
+85 verbose etag "6LYTKDCFIJP22LGC37141UMYW"
+86 http request GET https://registry.npmjs.org/request
+87 verbose request uri https://registry.npmjs.org/string-template
+88 verbose request no auth needed
+89 info attempt registry request try #1 at 6:50:17 AM
+90 verbose etag "CUA8H3MHSJCG6806W2JDG29Z1"
+91 http request GET https://registry.npmjs.org/string-template
+92 http 304 https://registry.npmjs.org/async
+93 verbose headers { date: 'Tue, 26 Jul 2016 06:50:17 GMT',
+93 verbose headers   via: '1.1 varnish',
+93 verbose headers   'cache-control': 'max-age=300',
+93 verbose headers   etag: '"C9MU828GPC5SRFQUR9JMXKLDU"',
+93 verbose headers   age: '298',
+93 verbose headers   connection: 'keep-alive',
+93 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+93 verbose headers   'x-cache': 'HIT',
+93 verbose headers   'x-cache-hits': '1',
+93 verbose headers   'x-timer': 'S1469515817.844475,VS0,VE0',
+93 verbose headers   vary: 'Accept-Encoding' }
+94 silly get cb [ 304,
+94 silly get   { date: 'Tue, 26 Jul 2016 06:50:17 GMT',
+94 silly get     via: '1.1 varnish',
+94 silly get     'cache-control': 'max-age=300',
+94 silly get     etag: '"C9MU828GPC5SRFQUR9JMXKLDU"',
+94 silly get     age: '298',
+94 silly get     connection: 'keep-alive',
+94 silly get     'x-served-by': 'cache-sin6926-SIN',
+94 silly get     'x-cache': 'HIT',
+94 silly get     'x-cache-hits': '1',
+94 silly get     'x-timer': 'S1469515817.844475,VS0,VE0',
+94 silly get     vary: 'Accept-Encoding' } ]
+95 verbose etag https://registry.npmjs.org/async from cache
+96 verbose get saving async to /home/vagrant/.npm/registry.npmjs.org/async/.cache.json
+97 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+98 silly resolveWithNewModule async@1.4.2 checking installable status
+99 silly cache add args [ 'async@~1.4.2', null ]
+100 verbose cache add spec async@~1.4.2
+101 silly cache add parsed spec Result {
+101 silly cache add   raw: 'async@~1.4.2',
+101 silly cache add   scope: null,
+101 silly cache add   name: 'async',
+101 silly cache add   rawSpec: '~1.4.2',
+101 silly cache add   spec: '>=1.4.2 <1.5.0',
+101 silly cache add   type: 'range' }
+102 silly addNamed async@>=1.4.2 <1.5.0
+103 verbose addNamed ">=1.4.2 <1.5.0" is a valid semver range for async
+104 silly addNameRange { name: 'async', range: '>=1.4.2 <1.5.0', hasData: false }
+105 silly mapToRegistry name async
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry https://registry.npmjs.org/
+108 silly mapToRegistry data Result {
+108 silly mapToRegistry   raw: 'async',
+108 silly mapToRegistry   scope: null,
+108 silly mapToRegistry   name: 'async',
+108 silly mapToRegistry   rawSpec: '',
+108 silly mapToRegistry   spec: 'latest',
+108 silly mapToRegistry   type: 'tag' }
+109 silly mapToRegistry uri https://registry.npmjs.org/async
+110 verbose addNameRange registry:https://registry.npmjs.org/async not in flight; fetching
+111 verbose get https://registry.npmjs.org/async not expired, no request
+112 silly addNameRange number 2 { name: 'async', range: '>=1.4.2 <1.5.0', hasData: true }
+113 silly addNameRange versions [ 'async',
+113 silly addNameRange   [ '0.1.0',
+113 silly addNameRange     '0.1.1',
+113 silly addNameRange     '0.1.2',
+113 silly addNameRange     '0.1.3',
+113 silly addNameRange     '0.1.4',
+113 silly addNameRange     '0.1.5',
+113 silly addNameRange     '0.1.6',
+113 silly addNameRange     '0.1.7',
+113 silly addNameRange     '0.1.8',
+113 silly addNameRange     '0.1.9',
+113 silly addNameRange     '0.1.10',
+113 silly addNameRange     '0.1.11',
+113 silly addNameRange     '0.1.12',
+113 silly addNameRange     '0.1.13',
+113 silly addNameRange     '0.1.14',
+113 silly addNameRange     '0.1.15',
+113 silly addNameRange     '0.1.16',
+113 silly addNameRange     '0.1.17',
+113 silly addNameRange     '0.1.18',
+113 silly addNameRange     '0.1.19',
+113 silly addNameRange     '0.1.20',
+113 silly addNameRange     '0.1.21',
+113 silly addNameRange     '0.1.22',
+113 silly addNameRange     '0.2.0',
+113 silly addNameRange     '0.2.1',
+113 silly addNameRange     '0.2.2',
+113 silly addNameRange     '0.2.3',
+113 silly addNameRange     '0.2.4',
+113 silly addNameRange     '0.2.5',
+113 silly addNameRange     '0.2.6',
+113 silly addNameRange     '0.2.7',
+113 silly addNameRange     '0.2.8',
+113 silly addNameRange     '0.2.9',
+113 silly addNameRange     '0.2.10',
+113 silly addNameRange     '0.3.0',
+113 silly addNameRange     '0.4.0',
+113 silly addNameRange     '0.4.1',
+113 silly addNameRange     '0.5.0',
+113 silly addNameRange     '0.6.0',
+113 silly addNameRange     '0.6.1',
+113 silly addNameRange     '0.6.2',
+113 silly addNameRange     '0.7.0',
+113 silly addNameRange     '0.8.0',
+113 silly addNameRange     '0.9.0',
+113 silly addNameRange     '0.9.2',
+113 silly addNameRange     '1.0.0',
+113 silly addNameRange     '1.1.0',
+113 silly addNameRange     '1.2.0',
+113 silly addNameRange     '1.1.1',
+113 silly addNameRange     '1.2.1',
+113 silly addNameRange     '1.3.0',
+113 silly addNameRange     '1.4.0',
+113 silly addNameRange     '1.4.1',
+113 silly addNameRange     '1.4.2',
+113 silly addNameRange     '1.5.0',
+113 silly addNameRange     '1.5.1',
+113 silly addNameRange     '1.5.2',
+113 silly addNameRange     '2.0.0-alpha.0',
+113 silly addNameRange     '2.0.0-rc.1',
+113 silly addNameRange     '2.0.0-rc.2',
+113 silly addNameRange     '2.0.0-rc.3',
+113 silly addNameRange     '2.0.0-rc.4',
+113 silly addNameRange     '2.0.0-rc.5',
+113 silly addNameRange     '2.0.0-rc.6',
+113 silly addNameRange     '2.0.0',
+113 silly addNameRange     '2.0.1' ] ]
+114 silly addNamed async@1.4.2
+115 verbose addNamed "1.4.2" is a plain semver version for async
+116 silly cache afterAdd async@1.4.2
+117 verbose afterAdd /home/vagrant/.npm/async/1.4.2/package/package.json not in flight; writing
+118 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+119 verbose afterAdd /home/vagrant/.npm/async/1.4.2/package/package.json written
+120 http 304 https://registry.npmjs.org/string-template
+121 verbose headers { date: 'Tue, 26 Jul 2016 06:50:18 GMT',
+121 verbose headers   via: '1.1 varnish',
+121 verbose headers   'cache-control': 'max-age=300',
+121 verbose headers   etag: '"CUA8H3MHSJCG6806W2JDG29Z1"',
+121 verbose headers   age: '163',
+121 verbose headers   connection: 'keep-alive',
+121 verbose headers   'x-served-by': 'cache-sin6920-SIN',
+121 verbose headers   'x-cache': 'HIT',
+121 verbose headers   'x-cache-hits': '1',
+121 verbose headers   'x-timer': 'S1469515818.888700,VS0,VE0',
+121 verbose headers   vary: 'Accept-Encoding' }
+122 silly get cb [ 304,
+122 silly get   { date: 'Tue, 26 Jul 2016 06:50:18 GMT',
+122 silly get     via: '1.1 varnish',
+122 silly get     'cache-control': 'max-age=300',
+122 silly get     etag: '"CUA8H3MHSJCG6806W2JDG29Z1"',
+122 silly get     age: '163',
+122 silly get     connection: 'keep-alive',
+122 silly get     'x-served-by': 'cache-sin6920-SIN',
+122 silly get     'x-cache': 'HIT',
+122 silly get     'x-cache-hits': '1',
+122 silly get     'x-timer': 'S1469515818.888700,VS0,VE0',
+122 silly get     vary: 'Accept-Encoding' } ]
+123 verbose etag https://registry.npmjs.org/string-template from cache
+124 verbose get saving string-template to /home/vagrant/.npm/registry.npmjs.org/string-template/.cache.json
+125 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+126 http 304 https://registry.npmjs.org/request
+127 verbose headers { date: 'Tue, 26 Jul 2016 06:50:18 GMT',
+127 verbose headers   via: '1.1 varnish',
+127 verbose headers   'cache-control': 'max-age=300',
+127 verbose headers   etag: '"6LYTKDCFIJP22LGC37141UMYW"',
+127 verbose headers   age: '105',
+127 verbose headers   connection: 'keep-alive',
+127 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+127 verbose headers   'x-cache': 'HIT',
+127 verbose headers   'x-cache-hits': '20',
+127 verbose headers   'x-timer': 'S1469515818.884955,VS0,VE0',
+127 verbose headers   vary: 'Accept-Encoding' }
+128 silly get cb [ 304,
+128 silly get   { date: 'Tue, 26 Jul 2016 06:50:18 GMT',
+128 silly get     via: '1.1 varnish',
+128 silly get     'cache-control': 'max-age=300',
+128 silly get     etag: '"6LYTKDCFIJP22LGC37141UMYW"',
+128 silly get     age: '105',
+128 silly get     connection: 'keep-alive',
+128 silly get     'x-served-by': 'cache-sin6927-SIN',
+128 silly get     'x-cache': 'HIT',
+128 silly get     'x-cache-hits': '20',
+128 silly get     'x-timer': 'S1469515818.884955,VS0,VE0',
+128 silly get     vary: 'Accept-Encoding' } ]
+129 verbose etag https://registry.npmjs.org/request from cache
+130 verbose get saving request to /home/vagrant/.npm/registry.npmjs.org/request/.cache.json
+131 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+132 silly resolveWithNewModule string-template@0.2.1 checking installable status
+133 silly cache add args [ 'string-template@~0.2.0', null ]
+134 verbose cache add spec string-template@~0.2.0
+135 silly cache add parsed spec Result {
+135 silly cache add   raw: 'string-template@~0.2.0',
+135 silly cache add   scope: null,
+135 silly cache add   name: 'string-template',
+135 silly cache add   rawSpec: '~0.2.0',
+135 silly cache add   spec: '>=0.2.0 <0.3.0',
+135 silly cache add   type: 'range' }
+136 silly addNamed string-template@>=0.2.0 <0.3.0
+137 verbose addNamed ">=0.2.0 <0.3.0" is a valid semver range for string-template
+138 silly addNameRange { name: 'string-template',
+138 silly addNameRange   range: '>=0.2.0 <0.3.0',
+138 silly addNameRange   hasData: false }
+139 silly mapToRegistry name string-template
+140 silly mapToRegistry using default registry
+141 silly mapToRegistry registry https://registry.npmjs.org/
+142 silly mapToRegistry data Result {
+142 silly mapToRegistry   raw: 'string-template',
+142 silly mapToRegistry   scope: null,
+142 silly mapToRegistry   name: 'string-template',
+142 silly mapToRegistry   rawSpec: '',
+142 silly mapToRegistry   spec: 'latest',
+142 silly mapToRegistry   type: 'tag' }
+143 silly mapToRegistry uri https://registry.npmjs.org/string-template
+144 verbose addNameRange registry:https://registry.npmjs.org/string-template not in flight; fetching
+145 silly resolveWithNewModule request@2.60.0 checking installable status
+146 silly cache add args [ 'request@~2.60.0', null ]
+147 verbose cache add spec request@~2.60.0
+148 silly cache add parsed spec Result {
+148 silly cache add   raw: 'request@~2.60.0',
+148 silly cache add   scope: null,
+148 silly cache add   name: 'request',
+148 silly cache add   rawSpec: '~2.60.0',
+148 silly cache add   spec: '>=2.60.0 <2.61.0',
+148 silly cache add   type: 'range' }
+149 silly addNamed request@>=2.60.0 <2.61.0
+150 verbose addNamed ">=2.60.0 <2.61.0" is a valid semver range for request
+151 silly addNameRange { name: 'request', range: '>=2.60.0 <2.61.0', hasData: false }
+152 silly mapToRegistry name request
+153 silly mapToRegistry using default registry
+154 silly mapToRegistry registry https://registry.npmjs.org/
+155 silly mapToRegistry data Result {
+155 silly mapToRegistry   raw: 'request',
+155 silly mapToRegistry   scope: null,
+155 silly mapToRegistry   name: 'request',
+155 silly mapToRegistry   rawSpec: '',
+155 silly mapToRegistry   spec: 'latest',
+155 silly mapToRegistry   type: 'tag' }
+156 silly mapToRegistry uri https://registry.npmjs.org/request
+157 verbose addNameRange registry:https://registry.npmjs.org/request not in flight; fetching
+158 verbose get https://registry.npmjs.org/string-template not expired, no request
+159 silly addNameRange number 2 { name: 'string-template',
+159 silly addNameRange   range: '>=0.2.0 <0.3.0',
+159 silly addNameRange   hasData: true }
+160 silly addNameRange versions [ 'string-template',
+160 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.2.0', '0.2.1', '1.0.0' ] ]
+161 silly addNamed string-template@0.2.1
+162 verbose addNamed "0.2.1" is a plain semver version for string-template
+163 verbose get https://registry.npmjs.org/request not expired, no request
+164 silly addNameRange number 2 { name: 'request', range: '>=2.60.0 <2.61.0', hasData: true }
+165 silly addNameRange versions [ 'request',
+165 silly addNameRange   [ '0.10.0',
+165 silly addNameRange     '0.8.3',
+165 silly addNameRange     '0.9.0',
+165 silly addNameRange     '0.9.1',
+165 silly addNameRange     '0.9.5',
+165 silly addNameRange     '1.0.0',
+165 silly addNameRange     '1.1.0',
+165 silly addNameRange     '1.1.1',
+165 silly addNameRange     '1.2.0',
+165 silly addNameRange     '1.9.0',
+165 silly addNameRange     '1.9.1',
+165 silly addNameRange     '1.9.2',
+165 silly addNameRange     '1.9.3',
+165 silly addNameRange     '1.9.5',
+165 silly addNameRange     '1.9.7',
+165 silly addNameRange     '1.9.8',
+165 silly addNameRange     '1.9.9',
+165 silly addNameRange     '2.0.0',
+165 silly addNameRange     '2.0.1',
+165 silly addNameRange     '2.0.2',
+165 silly addNameRange     '2.0.3',
+165 silly addNameRange     '2.0.4',
+165 silly addNameRange     '2.0.5',
+165 silly addNameRange     '2.1.0',
+165 silly addNameRange     '2.1.1',
+165 silly addNameRange     '2.2.0',
+165 silly addNameRange     '2.2.5',
+165 silly addNameRange     '2.2.6',
+165 silly addNameRange     '2.2.9',
+165 silly addNameRange     '2.9.0',
+165 silly addNameRange     '2.9.1',
+165 silly addNameRange     '2.9.2',
+165 silly addNameRange     '2.9.3',
+165 silly addNameRange     '2.9.100',
+165 silly addNameRange     '2.9.150',
+165 silly addNameRange     '2.9.151',
+165 silly addNameRange     '2.9.152',
+165 silly addNameRange     '2.9.153',
+165 silly addNameRange     '2.9.200',
+165 silly addNameRange     '2.9.201',
+165 silly addNameRange     '2.9.202',
+165 silly addNameRange     '2.9.203',
+165 silly addNameRange     '2.10.0',
+165 silly addNameRange     '2.11.0',
+165 silly addNameRange     '2.11.1',
+165 silly addNameRange     '2.11.2',
+165 silly addNameRange     '2.11.3',
+165 silly addNameRange     '2.11.4',
+165 silly addNameRange     '2.12.0',
+165 silly addNameRange     '2.14.0',
+165 silly addNameRange     '2.16.0',
+165 silly addNameRange     '2.16.2',
+165 silly addNameRange     '2.16.4',
+165 silly addNameRange     '2.16.6',
+165 silly addNameRange     '2.18.0',
+165 silly addNameRange     '2.19.0',
+165 silly addNameRange     '2.20.0',
+165 silly addNameRange     '2.21.0',
+165 silly addNameRange     '2.22.0',
+165 silly addNameRange     '2.23.0',
+165 silly addNameRange     '2.24.0',
+165 silly addNameRange     '2.25.0',
+165 silly addNameRange     '2.26.0',
+165 silly addNameRange     '2.27.0',
+165 silly addNameRange     '2.28.0',
+165 silly addNameRange     '2.29.0',
+165 silly addNameRange     '2.30.0',
+165 silly addNameRange     '2.31.0',
+165 silly addNameRange     '2.32.0',
+165 silly addNameRange     '2.33.0',
+165 silly addNameRange     '2.34.0',
+165 silly addNameRange     '2.35.0',
+165 silly addNameRange     '2.36.0',
+165 silly addNameRange     '2.37.0',
+165 silly addNameRange     '2.38.0',
+165 silly addNameRange     '2.39.0',
+165 silly addNameRange     '2.40.0',
+165 silly addNameRange     '2.41.0',
+165 silly addNameRange     '2.42.0',
+165 silly addNameRange     '2.43.0',
+165 silly addNameRange     '2.44.0',
+165 silly addNameRange     '2.45.0',
+165 silly addNameRange     '2.46.0',
+165 silly addNameRange     '2.47.0',
+165 silly addNameRange     '2.48.0',
+165 silly addNameRange     '2.49.0',
+165 silly addNameRange     '2.50.0',
+165 silly addNameRange     '2.51.0',
+165 silly addNameRange     '2.52.0',
+165 silly addNameRange     '2.53.0',
+165 silly addNameRange     '2.54.0',
+165 silly addNameRange     '2.55.0',
+165 silly addNameRange     '2.56.0',
+165 silly addNameRange     '2.57.0',
+165 silly addNameRange     '2.58.0',
+165 silly addNameRange     '2.59.0',
+165 silly addNameRange     '2.60.0',
+165 silly addNameRange     '2.61.0',
+165 silly addNameRange     '2.62.0',
+165 silly addNameRange     '2.63.0',
+165 silly addNameRange     '2.64.0',
+165 silly addNameRange     '2.65.0',
+165 silly addNameRange     '2.66.0',
+165 silly addNameRange     '2.67.0',
+165 silly addNameRange     '2.68.0',
+165 silly addNameRange     '2.69.0',
+165 silly addNameRange     '2.70.0',
+165 silly addNameRange     '2.71.0',
+165 silly addNameRange     '2.72.0',
+165 silly addNameRange     '2.73.0',
+165 silly addNameRange     '2.74.0' ] ]
+166 silly addNamed request@2.60.0
+167 verbose addNamed "2.60.0" is a plain semver version for request
+168 silly cache afterAdd string-template@0.2.1
+169 verbose afterAdd /home/vagrant/.npm/string-template/0.2.1/package/package.json not in flight; writing
+170 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+171 silly cache afterAdd request@2.60.0
+172 verbose afterAdd /home/vagrant/.npm/request/2.60.0/package/package.json not in flight; writing
+173 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+174 verbose afterAdd /home/vagrant/.npm/string-template/0.2.1/package/package.json written
+175 verbose afterAdd /home/vagrant/.npm/request/2.60.0/package/package.json written
+176 silly fetchNamedPackageData bl
+177 silly mapToRegistry name bl
+178 silly mapToRegistry using default registry
+179 silly mapToRegistry registry https://registry.npmjs.org/
+180 silly mapToRegistry data Result {
+180 silly mapToRegistry   raw: 'bl',
+180 silly mapToRegistry   scope: null,
+180 silly mapToRegistry   name: 'bl',
+180 silly mapToRegistry   rawSpec: '',
+180 silly mapToRegistry   spec: 'latest',
+180 silly mapToRegistry   type: 'tag' }
+181 silly mapToRegistry uri https://registry.npmjs.org/bl
+182 silly fetchNamedPackageData qs
+183 silly mapToRegistry name qs
+184 silly mapToRegistry using default registry
+185 silly mapToRegistry registry https://registry.npmjs.org/
+186 silly mapToRegistry data Result {
+186 silly mapToRegistry   raw: 'qs',
+186 silly mapToRegistry   scope: null,
+186 silly mapToRegistry   name: 'qs',
+186 silly mapToRegistry   rawSpec: '',
+186 silly mapToRegistry   spec: 'latest',
+186 silly mapToRegistry   type: 'tag' }
+187 silly mapToRegistry uri https://registry.npmjs.org/qs
+188 silly fetchNamedPackageData http-signature
+189 silly mapToRegistry name http-signature
+190 silly mapToRegistry using default registry
+191 silly mapToRegistry registry https://registry.npmjs.org/
+192 silly mapToRegistry data Result {
+192 silly mapToRegistry   raw: 'http-signature',
+192 silly mapToRegistry   scope: null,
+192 silly mapToRegistry   name: 'http-signature',
+192 silly mapToRegistry   rawSpec: '',
+192 silly mapToRegistry   spec: 'latest',
+192 silly mapToRegistry   type: 'tag' }
+193 silly mapToRegistry uri https://registry.npmjs.org/http-signature
+194 silly fetchNamedPackageData aws-sign2
+195 silly mapToRegistry name aws-sign2
+196 silly mapToRegistry using default registry
+197 silly mapToRegistry registry https://registry.npmjs.org/
+198 silly mapToRegistry data Result {
+198 silly mapToRegistry   raw: 'aws-sign2',
+198 silly mapToRegistry   scope: null,
+198 silly mapToRegistry   name: 'aws-sign2',
+198 silly mapToRegistry   rawSpec: '',
+198 silly mapToRegistry   spec: 'latest',
+198 silly mapToRegistry   type: 'tag' }
+199 silly mapToRegistry uri https://registry.npmjs.org/aws-sign2
+200 silly fetchNamedPackageData har-validator
+201 silly mapToRegistry name har-validator
+202 silly mapToRegistry using default registry
+203 silly mapToRegistry registry https://registry.npmjs.org/
+204 silly mapToRegistry data Result {
+204 silly mapToRegistry   raw: 'har-validator',
+204 silly mapToRegistry   scope: null,
+204 silly mapToRegistry   name: 'har-validator',
+204 silly mapToRegistry   rawSpec: '',
+204 silly mapToRegistry   spec: 'latest',
+204 silly mapToRegistry   type: 'tag' }
+205 silly mapToRegistry uri https://registry.npmjs.org/har-validator
+206 verbose request uri https://registry.npmjs.org/bl
+207 verbose request no auth needed
+208 info attempt registry request try #1 at 6:50:19 AM
+209 verbose etag "BXXVSH5J8WSZKCW5B4QETJNAI"
+210 http request GET https://registry.npmjs.org/bl
+211 verbose request uri https://registry.npmjs.org/qs
+212 verbose request no auth needed
+213 info attempt registry request try #1 at 6:50:19 AM
+214 verbose etag "E5MXEVI4Y8N6XXXW2AHSFQ7UB"
+215 http request GET https://registry.npmjs.org/qs
+216 verbose request uri https://registry.npmjs.org/http-signature
+217 verbose request no auth needed
+218 info attempt registry request try #1 at 6:50:19 AM
+219 verbose etag "AO4A0V3S2MXKLI8XA4ZKKG153"
+220 http request GET https://registry.npmjs.org/http-signature
+221 verbose request uri https://registry.npmjs.org/aws-sign2
+222 verbose request no auth needed
+223 info attempt registry request try #1 at 6:50:19 AM
+224 verbose etag "27R48E29FV1E9H5GP3QGA5YV3"
+225 http request GET https://registry.npmjs.org/aws-sign2
+226 verbose request uri https://registry.npmjs.org/har-validator
+227 verbose request no auth needed
+228 info attempt registry request try #1 at 6:50:19 AM
+229 verbose etag "E24Z34QP46JL55KHDGBFOCAFD"
+230 http request GET https://registry.npmjs.org/har-validator
+231 http 304 https://registry.npmjs.org/bl
+232 verbose headers { date: 'Tue, 26 Jul 2016 06:50:19 GMT',
+232 verbose headers   via: '1.1 varnish',
+232 verbose headers   'cache-control': 'max-age=300',
+232 verbose headers   etag: '"BXXVSH5J8WSZKCW5B4QETJNAI"',
+232 verbose headers   age: '66',
+232 verbose headers   connection: 'keep-alive',
+232 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+232 verbose headers   'x-cache': 'HIT',
+232 verbose headers   'x-cache-hits': '16',
+232 verbose headers   'x-timer': 'S1469515819.847962,VS0,VE0',
+232 verbose headers   vary: 'Accept-Encoding' }
+233 silly get cb [ 304,
+233 silly get   { date: 'Tue, 26 Jul 2016 06:50:19 GMT',
+233 silly get     via: '1.1 varnish',
+233 silly get     'cache-control': 'max-age=300',
+233 silly get     etag: '"BXXVSH5J8WSZKCW5B4QETJNAI"',
+233 silly get     age: '66',
+233 silly get     connection: 'keep-alive',
+233 silly get     'x-served-by': 'cache-sin6926-SIN',
+233 silly get     'x-cache': 'HIT',
+233 silly get     'x-cache-hits': '16',
+233 silly get     'x-timer': 'S1469515819.847962,VS0,VE0',
+233 silly get     vary: 'Accept-Encoding' } ]
+234 verbose etag https://registry.npmjs.org/bl from cache
+235 verbose get saving bl to /home/vagrant/.npm/registry.npmjs.org/bl/.cache.json
+236 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+237 http 304 https://registry.npmjs.org/qs
+238 verbose headers { date: 'Tue, 26 Jul 2016 06:50:19 GMT',
+238 verbose headers   via: '1.1 varnish',
+238 verbose headers   'cache-control': 'max-age=300',
+238 verbose headers   etag: '"E5MXEVI4Y8N6XXXW2AHSFQ7UB"',
+238 verbose headers   age: '231',
+238 verbose headers   connection: 'keep-alive',
+238 verbose headers   'x-served-by': 'cache-sin6920-SIN',
+238 verbose headers   'x-cache': 'HIT',
+238 verbose headers   'x-cache-hits': '43',
+238 verbose headers   'x-timer': 'S1469515819.850153,VS0,VE0',
+238 verbose headers   vary: 'Accept-Encoding' }
+239 silly get cb [ 304,
+239 silly get   { date: 'Tue, 26 Jul 2016 06:50:19 GMT',
+239 silly get     via: '1.1 varnish',
+239 silly get     'cache-control': 'max-age=300',
+239 silly get     etag: '"E5MXEVI4Y8N6XXXW2AHSFQ7UB"',
+239 silly get     age: '231',
+239 silly get     connection: 'keep-alive',
+239 silly get     'x-served-by': 'cache-sin6920-SIN',
+239 silly get     'x-cache': 'HIT',
+239 silly get     'x-cache-hits': '43',
+239 silly get     'x-timer': 'S1469515819.850153,VS0,VE0',
+239 silly get     vary: 'Accept-Encoding' } ]
+240 verbose etag https://registry.npmjs.org/qs from cache
+241 verbose get saving qs to /home/vagrant/.npm/registry.npmjs.org/qs/.cache.json
+242 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+243 http 304 https://registry.npmjs.org/http-signature
+244 verbose headers { date: 'Tue, 26 Jul 2016 06:50:19 GMT',
+244 verbose headers   via: '1.1 varnish',
+244 verbose headers   'cache-control': 'max-age=300',
+244 verbose headers   etag: '"AO4A0V3S2MXKLI8XA4ZKKG153"',
+244 verbose headers   age: '182',
+244 verbose headers   connection: 'keep-alive',
+244 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+244 verbose headers   'x-cache': 'HIT',
+244 verbose headers   'x-cache-hits': '25',
+244 verbose headers   'x-timer': 'S1469515819.846209,VS0,VE0',
+244 verbose headers   vary: 'Accept-Encoding' }
+245 silly get cb [ 304,
+245 silly get   { date: 'Tue, 26 Jul 2016 06:50:19 GMT',
+245 silly get     via: '1.1 varnish',
+245 silly get     'cache-control': 'max-age=300',
+245 silly get     etag: '"AO4A0V3S2MXKLI8XA4ZKKG153"',
+245 silly get     age: '182',
+245 silly get     connection: 'keep-alive',
+245 silly get     'x-served-by': 'cache-sin6927-SIN',
+245 silly get     'x-cache': 'HIT',
+245 silly get     'x-cache-hits': '25',
+245 silly get     'x-timer': 'S1469515819.846209,VS0,VE0',
+245 silly get     vary: 'Accept-Encoding' } ]
+246 verbose etag https://registry.npmjs.org/http-signature from cache
+247 verbose get saving http-signature to /home/vagrant/.npm/registry.npmjs.org/http-signature/.cache.json
+248 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+249 silly resolveWithNewModule bl@1.0.3 checking installable status
+250 silly cache add args [ 'bl@~1.0.0', null ]
+251 verbose cache add spec bl@~1.0.0
+252 silly cache add parsed spec Result {
+252 silly cache add   raw: 'bl@~1.0.0',
+252 silly cache add   scope: null,
+252 silly cache add   name: 'bl',
+252 silly cache add   rawSpec: '~1.0.0',
+252 silly cache add   spec: '>=1.0.0 <1.1.0',
+252 silly cache add   type: 'range' }
+253 silly addNamed bl@>=1.0.0 <1.1.0
+254 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for bl
+255 silly addNameRange { name: 'bl', range: '>=1.0.0 <1.1.0', hasData: false }
+256 silly mapToRegistry name bl
+257 silly mapToRegistry using default registry
+258 silly mapToRegistry registry https://registry.npmjs.org/
+259 silly mapToRegistry data Result {
+259 silly mapToRegistry   raw: 'bl',
+259 silly mapToRegistry   scope: null,
+259 silly mapToRegistry   name: 'bl',
+259 silly mapToRegistry   rawSpec: '',
+259 silly mapToRegistry   spec: 'latest',
+259 silly mapToRegistry   type: 'tag' }
+260 silly mapToRegistry uri https://registry.npmjs.org/bl
+261 verbose addNameRange registry:https://registry.npmjs.org/bl not in flight; fetching
+262 silly resolveWithNewModule qs@4.0.0 checking installable status
+263 silly cache add args [ 'qs@~4.0.0', null ]
+264 verbose cache add spec qs@~4.0.0
+265 silly cache add parsed spec Result {
+265 silly cache add   raw: 'qs@~4.0.0',
+265 silly cache add   scope: null,
+265 silly cache add   name: 'qs',
+265 silly cache add   rawSpec: '~4.0.0',
+265 silly cache add   spec: '>=4.0.0 <4.1.0',
+265 silly cache add   type: 'range' }
+266 silly addNamed qs@>=4.0.0 <4.1.0
+267 verbose addNamed ">=4.0.0 <4.1.0" is a valid semver range for qs
+268 silly addNameRange { name: 'qs', range: '>=4.0.0 <4.1.0', hasData: false }
+269 silly mapToRegistry name qs
+270 silly mapToRegistry using default registry
+271 silly mapToRegistry registry https://registry.npmjs.org/
+272 silly mapToRegistry data Result {
+272 silly mapToRegistry   raw: 'qs',
+272 silly mapToRegistry   scope: null,
+272 silly mapToRegistry   name: 'qs',
+272 silly mapToRegistry   rawSpec: '',
+272 silly mapToRegistry   spec: 'latest',
+272 silly mapToRegistry   type: 'tag' }
+273 silly mapToRegistry uri https://registry.npmjs.org/qs
+274 verbose addNameRange registry:https://registry.npmjs.org/qs not in flight; fetching
+275 silly resolveWithNewModule http-signature@0.11.0 checking installable status
+276 silly cache add args [ 'http-signature@~0.11.0', null ]
+277 verbose cache add spec http-signature@~0.11.0
+278 silly cache add parsed spec Result {
+278 silly cache add   raw: 'http-signature@~0.11.0',
+278 silly cache add   scope: null,
+278 silly cache add   name: 'http-signature',
+278 silly cache add   rawSpec: '~0.11.0',
+278 silly cache add   spec: '>=0.11.0 <0.12.0',
+278 silly cache add   type: 'range' }
+279 silly addNamed http-signature@>=0.11.0 <0.12.0
+280 verbose addNamed ">=0.11.0 <0.12.0" is a valid semver range for http-signature
+281 silly addNameRange { name: 'http-signature',
+281 silly addNameRange   range: '>=0.11.0 <0.12.0',
+281 silly addNameRange   hasData: false }
+282 silly mapToRegistry name http-signature
+283 silly mapToRegistry using default registry
+284 silly mapToRegistry registry https://registry.npmjs.org/
+285 silly mapToRegistry data Result {
+285 silly mapToRegistry   raw: 'http-signature',
+285 silly mapToRegistry   scope: null,
+285 silly mapToRegistry   name: 'http-signature',
+285 silly mapToRegistry   rawSpec: '',
+285 silly mapToRegistry   spec: 'latest',
+285 silly mapToRegistry   type: 'tag' }
+286 silly mapToRegistry uri https://registry.npmjs.org/http-signature
+287 verbose addNameRange registry:https://registry.npmjs.org/http-signature not in flight; fetching
+288 verbose get https://registry.npmjs.org/bl not expired, no request
+289 silly addNameRange number 2 { name: 'bl', range: '>=1.0.0 <1.1.0', hasData: true }
+290 silly addNameRange versions [ 'bl',
+290 silly addNameRange   [ '0.0.0',
+290 silly addNameRange     '0.1.0',
+290 silly addNameRange     '0.1.1',
+290 silly addNameRange     '0.2.0',
+290 silly addNameRange     '0.3.0',
+290 silly addNameRange     '0.4.0',
+290 silly addNameRange     '0.4.1',
+290 silly addNameRange     '0.4.2',
+290 silly addNameRange     '0.5.0',
+290 silly addNameRange     '0.6.0',
+290 silly addNameRange     '0.7.0',
+290 silly addNameRange     '0.8.0',
+290 silly addNameRange     '0.8.1',
+290 silly addNameRange     '0.8.2',
+290 silly addNameRange     '0.9.0',
+290 silly addNameRange     '0.9.1',
+290 silly addNameRange     '0.9.2',
+290 silly addNameRange     '0.9.3',
+290 silly addNameRange     '0.9.4',
+290 silly addNameRange     '1.0.0',
+290 silly addNameRange     '1.0.1',
+290 silly addNameRange     '0.9.5',
+290 silly addNameRange     '1.0.2',
+290 silly addNameRange     '1.0.3',
+290 silly addNameRange     '1.1.1',
+290 silly addNameRange     '1.1.2' ] ]
+291 silly addNamed bl@1.0.3
+292 verbose addNamed "1.0.3" is a plain semver version for bl
+293 verbose get https://registry.npmjs.org/qs not expired, no request
+294 silly addNameRange number 2 { name: 'qs', range: '>=4.0.0 <4.1.0', hasData: true }
+295 silly addNameRange versions [ 'qs',
+295 silly addNameRange   [ '0.0.1',
+295 silly addNameRange     '0.0.2',
+295 silly addNameRange     '0.0.3',
+295 silly addNameRange     '0.0.4',
+295 silly addNameRange     '0.0.5',
+295 silly addNameRange     '0.0.6',
+295 silly addNameRange     '0.0.7',
+295 silly addNameRange     '0.1.0',
+295 silly addNameRange     '0.2.0',
+295 silly addNameRange     '0.3.0',
+295 silly addNameRange     '0.3.1',
+295 silly addNameRange     '0.3.2',
+295 silly addNameRange     '0.4.0',
+295 silly addNameRange     '0.4.1',
+295 silly addNameRange     '0.4.2',
+295 silly addNameRange     '0.5.0',
+295 silly addNameRange     '0.5.1',
+295 silly addNameRange     '0.5.2',
+295 silly addNameRange     '0.5.3',
+295 silly addNameRange     '0.5.4',
+295 silly addNameRange     '0.5.5',
+295 silly addNameRange     '0.5.6',
+295 silly addNameRange     '0.6.0',
+295 silly addNameRange     '0.6.1',
+295 silly addNameRange     '0.6.2',
+295 silly addNameRange     '0.6.3',
+295 silly addNameRange     '0.6.4',
+295 silly addNameRange     '0.6.5',
+295 silly addNameRange     '0.6.6',
+295 silly addNameRange     '1.0.0',
+295 silly addNameRange     '1.0.1',
+295 silly addNameRange     '1.0.2',
+295 silly addNameRange     '1.1.0',
+295 silly addNameRange     '1.2.0',
+295 silly addNameRange     '1.2.1',
+295 silly addNameRange     '1.2.2',
+295 silly addNameRange     '2.0.0',
+295 silly addNameRange     '2.1.0',
+295 silly addNameRange     '2.2.0',
+295 silly addNameRange     '2.2.1',
+295 silly addNameRange     '2.2.2',
+295 silly addNameRange     '2.2.3',
+295 silly addNameRange     '2.2.4',
+295 silly addNameRange     '2.2.5',
+295 silly addNameRange     '2.3.0',
+295 silly addNameRange     '2.3.1',
+295 silly addNameRange     '2.3.2',
+295 silly addNameRange     '2.3.3',
+295 silly addNameRange     '2.4.0',
+295 silly addNameRange     '2.4.1',
+295 silly addNameRange     '2.4.2',
+295 silly addNameRange     '3.0.0',
+295 silly addNameRange     '3.1.0',
+295 silly addNameRange     '4.0.0',
+295 silly addNameRange     '5.0.0',
+295 silly addNameRange     '5.1.0',
+295 silly addNameRange     '5.2.0',
+295 silly addNameRange     '6.0.0',
+295 silly addNameRange     '6.0.1',
+295 silly addNameRange     '6.0.2',
+295 silly addNameRange     '6.1.0',
+295 silly addNameRange     '6.2.0',
+295 silly addNameRange     '5.2.1',
+295 silly addNameRange     '6.2.1' ] ]
+296 silly addNamed qs@4.0.0
+297 verbose addNamed "4.0.0" is a plain semver version for qs
+298 verbose get https://registry.npmjs.org/http-signature not expired, no request
+299 silly addNameRange number 2 { name: 'http-signature',
+299 silly addNameRange   range: '>=0.11.0 <0.12.0',
+299 silly addNameRange   hasData: true }
+300 silly addNameRange versions [ 'http-signature',
+300 silly addNameRange   [ '0.9.0',
+300 silly addNameRange     '0.9.2',
+300 silly addNameRange     '0.9.3',
+300 silly addNameRange     '0.9.4',
+300 silly addNameRange     '0.9.5',
+300 silly addNameRange     '0.9.6',
+300 silly addNameRange     '0.9.7',
+300 silly addNameRange     '0.9.8',
+300 silly addNameRange     '0.9.9',
+300 silly addNameRange     '0.9.10',
+300 silly addNameRange     '0.9.11',
+300 silly addNameRange     '0.10.0',
+300 silly addNameRange     '0.10.1',
+300 silly addNameRange     '0.11.0',
+300 silly addNameRange     '1.0.0',
+300 silly addNameRange     '1.0.1',
+300 silly addNameRange     '1.0.2',
+300 silly addNameRange     '1.1.0',
+300 silly addNameRange     '1.1.1' ] ]
+301 silly addNamed http-signature@0.11.0
+302 verbose addNamed "0.11.0" is a plain semver version for http-signature
+303 silly cache afterAdd bl@1.0.3
+304 verbose afterAdd /home/vagrant/.npm/bl/1.0.3/package/package.json not in flight; writing
+305 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+306 silly cache afterAdd qs@4.0.0
+307 verbose afterAdd /home/vagrant/.npm/qs/4.0.0/package/package.json not in flight; writing
+308 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+309 silly cache afterAdd http-signature@0.11.0
+310 verbose afterAdd /home/vagrant/.npm/http-signature/0.11.0/package/package.json not in flight; writing
+311 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+312 verbose afterAdd /home/vagrant/.npm/bl/1.0.3/package/package.json written
+313 verbose afterAdd /home/vagrant/.npm/qs/4.0.0/package/package.json written
+314 verbose afterAdd /home/vagrant/.npm/http-signature/0.11.0/package/package.json written
+315 http 304 https://registry.npmjs.org/aws-sign2
+316 verbose headers { date: 'Tue, 26 Jul 2016 06:50:20 GMT',
+316 verbose headers   via: '1.1 varnish',
+316 verbose headers   'cache-control': 'max-age=300',
+316 verbose headers   etag: '"27R48E29FV1E9H5GP3QGA5YV3"',
+316 verbose headers   age: '184',
+316 verbose headers   connection: 'keep-alive',
+316 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+316 verbose headers   'x-cache': 'HIT',
+316 verbose headers   'x-cache-hits': '21',
+316 verbose headers   'x-timer': 'S1469515820.865636,VS0,VE0',
+316 verbose headers   vary: 'Accept-Encoding' }
+317 silly get cb [ 304,
+317 silly get   { date: 'Tue, 26 Jul 2016 06:50:20 GMT',
+317 silly get     via: '1.1 varnish',
+317 silly get     'cache-control': 'max-age=300',
+317 silly get     etag: '"27R48E29FV1E9H5GP3QGA5YV3"',
+317 silly get     age: '184',
+317 silly get     connection: 'keep-alive',
+317 silly get     'x-served-by': 'cache-sin6926-SIN',
+317 silly get     'x-cache': 'HIT',
+317 silly get     'x-cache-hits': '21',
+317 silly get     'x-timer': 'S1469515820.865636,VS0,VE0',
+317 silly get     vary: 'Accept-Encoding' } ]
+318 verbose etag https://registry.npmjs.org/aws-sign2 from cache
+319 verbose get saving aws-sign2 to /home/vagrant/.npm/registry.npmjs.org/aws-sign2/.cache.json
+320 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+321 silly resolveWithNewModule aws-sign2@0.5.0 checking installable status
+322 silly cache add args [ 'aws-sign2@~0.5.0', null ]
+323 verbose cache add spec aws-sign2@~0.5.0
+324 silly cache add parsed spec Result {
+324 silly cache add   raw: 'aws-sign2@~0.5.0',
+324 silly cache add   scope: null,
+324 silly cache add   name: 'aws-sign2',
+324 silly cache add   rawSpec: '~0.5.0',
+324 silly cache add   spec: '>=0.5.0 <0.6.0',
+324 silly cache add   type: 'range' }
+325 silly addNamed aws-sign2@>=0.5.0 <0.6.0
+326 verbose addNamed ">=0.5.0 <0.6.0" is a valid semver range for aws-sign2
+327 silly addNameRange { name: 'aws-sign2', range: '>=0.5.0 <0.6.0', hasData: false }
+328 silly mapToRegistry name aws-sign2
+329 silly mapToRegistry using default registry
+330 silly mapToRegistry registry https://registry.npmjs.org/
+331 silly mapToRegistry data Result {
+331 silly mapToRegistry   raw: 'aws-sign2',
+331 silly mapToRegistry   scope: null,
+331 silly mapToRegistry   name: 'aws-sign2',
+331 silly mapToRegistry   rawSpec: '',
+331 silly mapToRegistry   spec: 'latest',
+331 silly mapToRegistry   type: 'tag' }
+332 silly mapToRegistry uri https://registry.npmjs.org/aws-sign2
+333 verbose addNameRange registry:https://registry.npmjs.org/aws-sign2 not in flight; fetching
+334 http 304 https://registry.npmjs.org/har-validator
+335 verbose headers { date: 'Tue, 26 Jul 2016 06:50:20 GMT',
+335 verbose headers   via: '1.1 varnish',
+335 verbose headers   'cache-control': 'max-age=300',
+335 verbose headers   etag: '"E24Z34QP46JL55KHDGBFOCAFD"',
+335 verbose headers   age: '105',
+335 verbose headers   connection: 'keep-alive',
+335 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+335 verbose headers   'x-cache': 'HIT',
+335 verbose headers   'x-cache-hits': '9',
+335 verbose headers   'x-timer': 'S1469515820.885602,VS0,VE0',
+335 verbose headers   vary: 'Accept-Encoding' }
+336 silly get cb [ 304,
+336 silly get   { date: 'Tue, 26 Jul 2016 06:50:20 GMT',
+336 silly get     via: '1.1 varnish',
+336 silly get     'cache-control': 'max-age=300',
+336 silly get     etag: '"E24Z34QP46JL55KHDGBFOCAFD"',
+336 silly get     age: '105',
+336 silly get     connection: 'keep-alive',
+336 silly get     'x-served-by': 'cache-sin6921-SIN',
+336 silly get     'x-cache': 'HIT',
+336 silly get     'x-cache-hits': '9',
+336 silly get     'x-timer': 'S1469515820.885602,VS0,VE0',
+336 silly get     vary: 'Accept-Encoding' } ]
+337 verbose etag https://registry.npmjs.org/har-validator from cache
+338 verbose get saving har-validator to /home/vagrant/.npm/registry.npmjs.org/har-validator/.cache.json
+339 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+340 verbose get https://registry.npmjs.org/aws-sign2 not expired, no request
+341 silly addNameRange number 2 { name: 'aws-sign2', range: '>=0.5.0 <0.6.0', hasData: true }
+342 silly addNameRange versions [ 'aws-sign2', [ '0.4.0', '0.5.0', '0.6.0' ] ]
+343 silly addNamed aws-sign2@0.5.0
+344 verbose addNamed "0.5.0" is a plain semver version for aws-sign2
+345 silly resolveWithNewModule har-validator@1.8.0 checking installable status
+346 silly cache add args [ 'har-validator@^1.6.1', null ]
+347 verbose cache add spec har-validator@^1.6.1
+348 silly cache add parsed spec Result {
+348 silly cache add   raw: 'har-validator@^1.6.1',
+348 silly cache add   scope: null,
+348 silly cache add   name: 'har-validator',
+348 silly cache add   rawSpec: '^1.6.1',
+348 silly cache add   spec: '>=1.6.1 <2.0.0',
+348 silly cache add   type: 'range' }
+349 silly addNamed har-validator@>=1.6.1 <2.0.0
+350 verbose addNamed ">=1.6.1 <2.0.0" is a valid semver range for har-validator
+351 silly addNameRange { name: 'har-validator',
+351 silly addNameRange   range: '>=1.6.1 <2.0.0',
+351 silly addNameRange   hasData: false }
+352 silly mapToRegistry name har-validator
+353 silly mapToRegistry using default registry
+354 silly mapToRegistry registry https://registry.npmjs.org/
+355 silly mapToRegistry data Result {
+355 silly mapToRegistry   raw: 'har-validator',
+355 silly mapToRegistry   scope: null,
+355 silly mapToRegistry   name: 'har-validator',
+355 silly mapToRegistry   rawSpec: '',
+355 silly mapToRegistry   spec: 'latest',
+355 silly mapToRegistry   type: 'tag' }
+356 silly mapToRegistry uri https://registry.npmjs.org/har-validator
+357 verbose addNameRange registry:https://registry.npmjs.org/har-validator not in flight; fetching
+358 silly cache afterAdd aws-sign2@0.5.0
+359 verbose afterAdd /home/vagrant/.npm/aws-sign2/0.5.0/package/package.json not in flight; writing
+360 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+361 verbose get https://registry.npmjs.org/har-validator not expired, no request
+362 silly addNameRange number 2 { name: 'har-validator', range: '>=1.6.1 <2.0.0', hasData: true }
+363 silly addNameRange versions [ 'har-validator',
+363 silly addNameRange   [ '1.0.0',
+363 silly addNameRange     '1.0.1',
+363 silly addNameRange     '1.0.2',
+363 silly addNameRange     '1.1.0',
+363 silly addNameRange     '1.1.1',
+363 silly addNameRange     '1.1.2',
+363 silly addNameRange     '1.1.3',
+363 silly addNameRange     '1.2.0',
+363 silly addNameRange     '1.3.0',
+363 silly addNameRange     '1.3.1',
+363 silly addNameRange     '1.4.0',
+363 silly addNameRange     '1.5.0',
+363 silly addNameRange     '1.5.1',
+363 silly addNameRange     '1.6.0',
+363 silly addNameRange     '1.6.1',
+363 silly addNameRange     '1.7.0',
+363 silly addNameRange     '1.7.1',
+363 silly addNameRange     '1.8.0',
+363 silly addNameRange     '2.0.0',
+363 silly addNameRange     '2.0.1',
+363 silly addNameRange     '2.0.2',
+363 silly addNameRange     '2.0.3',
+363 silly addNameRange     '2.0.4',
+363 silly addNameRange     '2.0.5',
+363 silly addNameRange     '2.0.6',
+363 silly addNameRange     '2.1.0',
+363 silly addNameRange     '2.1.1',
+363 silly addNameRange     '2.1.2',
+363 silly addNameRange     '2.1.3' ] ]
+364 silly addNamed har-validator@1.8.0
+365 verbose addNamed "1.8.0" is a plain semver version for har-validator
+366 verbose afterAdd /home/vagrant/.npm/aws-sign2/0.5.0/package/package.json written
+367 silly cache afterAdd har-validator@1.8.0
+368 verbose afterAdd /home/vagrant/.npm/har-validator/1.8.0/package/package.json not in flight; writing
+369 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+370 verbose afterAdd /home/vagrant/.npm/har-validator/1.8.0/package/package.json written
+371 silly fetchNamedPackageData readable-stream
+372 silly mapToRegistry name readable-stream
+373 silly mapToRegistry using default registry
+374 silly mapToRegistry registry https://registry.npmjs.org/
+375 silly mapToRegistry data Result {
+375 silly mapToRegistry   raw: 'readable-stream',
+375 silly mapToRegistry   scope: null,
+375 silly mapToRegistry   name: 'readable-stream',
+375 silly mapToRegistry   rawSpec: '',
+375 silly mapToRegistry   spec: 'latest',
+375 silly mapToRegistry   type: 'tag' }
+376 silly mapToRegistry uri https://registry.npmjs.org/readable-stream
+377 verbose request uri https://registry.npmjs.org/readable-stream
+378 verbose request no auth needed
+379 info attempt registry request try #1 at 6:50:21 AM
+380 verbose etag "E9VURFQDJSVN7SKYIIMYUOYYK"
+381 http request GET https://registry.npmjs.org/readable-stream
+382 http 304 https://registry.npmjs.org/readable-stream
+383 verbose headers { date: 'Tue, 26 Jul 2016 06:50:21 GMT',
+383 verbose headers   via: '1.1 varnish',
+383 verbose headers   'cache-control': 'max-age=300',
+383 verbose headers   etag: '"E9VURFQDJSVN7SKYIIMYUOYYK"',
+383 verbose headers   age: '72',
+383 verbose headers   connection: 'keep-alive',
+383 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+383 verbose headers   'x-cache': 'HIT',
+383 verbose headers   'x-cache-hits': '34',
+383 verbose headers   'x-timer': 'S1469515821.365715,VS0,VE0',
+383 verbose headers   vary: 'Accept-Encoding' }
+384 silly get cb [ 304,
+384 silly get   { date: 'Tue, 26 Jul 2016 06:50:21 GMT',
+384 silly get     via: '1.1 varnish',
+384 silly get     'cache-control': 'max-age=300',
+384 silly get     etag: '"E9VURFQDJSVN7SKYIIMYUOYYK"',
+384 silly get     age: '72',
+384 silly get     connection: 'keep-alive',
+384 silly get     'x-served-by': 'cache-sin6926-SIN',
+384 silly get     'x-cache': 'HIT',
+384 silly get     'x-cache-hits': '34',
+384 silly get     'x-timer': 'S1469515821.365715,VS0,VE0',
+384 silly get     vary: 'Accept-Encoding' } ]
+385 verbose etag https://registry.npmjs.org/readable-stream from cache
+386 verbose get saving readable-stream to /home/vagrant/.npm/registry.npmjs.org/readable-stream/.cache.json
+387 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+388 silly resolveWithNewModule readable-stream@2.0.6 checking installable status
+389 silly cache add args [ 'readable-stream@~2.0.5', null ]
+390 verbose cache add spec readable-stream@~2.0.5
+391 silly cache add parsed spec Result {
+391 silly cache add   raw: 'readable-stream@~2.0.5',
+391 silly cache add   scope: null,
+391 silly cache add   name: 'readable-stream',
+391 silly cache add   rawSpec: '~2.0.5',
+391 silly cache add   spec: '>=2.0.5 <2.1.0',
+391 silly cache add   type: 'range' }
+392 silly addNamed readable-stream@>=2.0.5 <2.1.0
+393 verbose addNamed ">=2.0.5 <2.1.0" is a valid semver range for readable-stream
+394 silly addNameRange { name: 'readable-stream',
+394 silly addNameRange   range: '>=2.0.5 <2.1.0',
+394 silly addNameRange   hasData: false }
+395 silly mapToRegistry name readable-stream
+396 silly mapToRegistry using default registry
+397 silly mapToRegistry registry https://registry.npmjs.org/
+398 silly mapToRegistry data Result {
+398 silly mapToRegistry   raw: 'readable-stream',
+398 silly mapToRegistry   scope: null,
+398 silly mapToRegistry   name: 'readable-stream',
+398 silly mapToRegistry   rawSpec: '',
+398 silly mapToRegistry   spec: 'latest',
+398 silly mapToRegistry   type: 'tag' }
+399 silly mapToRegistry uri https://registry.npmjs.org/readable-stream
+400 verbose addNameRange registry:https://registry.npmjs.org/readable-stream not in flight; fetching
+401 verbose get https://registry.npmjs.org/readable-stream not expired, no request
+402 silly addNameRange number 2 { name: 'readable-stream',
+402 silly addNameRange   range: '>=2.0.5 <2.1.0',
+402 silly addNameRange   hasData: true }
+403 silly addNameRange versions [ 'readable-stream',
+403 silly addNameRange   [ '0.0.1',
+403 silly addNameRange     '0.0.2',
+403 silly addNameRange     '0.0.3',
+403 silly addNameRange     '0.0.4',
+403 silly addNameRange     '0.1.0',
+403 silly addNameRange     '0.2.0',
+403 silly addNameRange     '0.3.0',
+403 silly addNameRange     '0.3.1',
+403 silly addNameRange     '1.0.0',
+403 silly addNameRange     '1.0.1',
+403 silly addNameRange     '1.0.2',
+403 silly addNameRange     '1.0.15',
+403 silly addNameRange     '1.0.17',
+403 silly addNameRange     '1.1.7',
+403 silly addNameRange     '1.1.8',
+403 silly addNameRange     '1.1.9',
+403 silly addNameRange     '1.0.24',
+403 silly addNameRange     '1.0.25',
+403 silly addNameRange     '1.1.10',
+403 silly addNameRange     '1.0.25-1',
+403 silly addNameRange     '1.1.11',
+403 silly addNameRange     '1.0.26',
+403 silly addNameRange     '1.0.26-1',
+403 silly addNameRange     '1.1.11-1',
+403 silly addNameRange     '1.0.26-2',
+403 silly addNameRange     '1.1.12',
+403 silly addNameRange     '1.0.26-3',
+403 silly addNameRange     '1.0.26-4',
+403 silly addNameRange     '1.1.12-1',
+403 silly addNameRange     '1.0.27-1',
+403 silly addNameRange     '1.1.13-1',
+403 silly addNameRange     '1.0.31',
+403 silly addNameRange     '1.1.13',
+403 silly addNameRange     '1.0.32',
+403 silly addNameRange     '1.0.32-1',
+403 silly addNameRange     '1.0.33-1',
+403 silly addNameRange     '1.0.33-2',
+403 silly addNameRange     '1.0.33',
+403 silly addNameRange     '2.0.0',
+403 silly addNameRange     '2.0.1',
+403 silly addNameRange     '2.0.2',
+403 silly addNameRange     '2.0.3',
+403 silly addNameRange     '2.0.4',
+403 silly addNameRange     '2.0.5',
+403 silly addNameRange     '2.0.6',
+403 silly addNameRange     '1.0.34',
+403 silly addNameRange     '1.1.14',
+403 silly addNameRange     '2.1.0',
+403 silly addNameRange     '2.1.1',
+403 silly addNameRange     '2.1.2',
+403 silly addNameRange     '2.1.3',
+403 silly addNameRange     '2.1.4' ] ]
+404 silly addNamed readable-stream@2.0.6
+405 verbose addNamed "2.0.6" is a plain semver version for readable-stream
+406 silly cache afterAdd readable-stream@2.0.6
+407 verbose afterAdd /home/vagrant/.npm/readable-stream/2.0.6/package/package.json not in flight; writing
+408 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+409 verbose afterAdd /home/vagrant/.npm/readable-stream/2.0.6/package/package.json written
+410 silly fetchNamedPackageData isarray
+411 silly mapToRegistry name isarray
+412 silly mapToRegistry using default registry
+413 silly mapToRegistry registry https://registry.npmjs.org/
+414 silly mapToRegistry data Result {
+414 silly mapToRegistry   raw: 'isarray',
+414 silly mapToRegistry   scope: null,
+414 silly mapToRegistry   name: 'isarray',
+414 silly mapToRegistry   rawSpec: '',
+414 silly mapToRegistry   spec: 'latest',
+414 silly mapToRegistry   type: 'tag' }
+415 silly mapToRegistry uri https://registry.npmjs.org/isarray
+416 verbose request uri https://registry.npmjs.org/isarray
+417 verbose request no auth needed
+418 info attempt registry request try #1 at 6:50:21 AM
+419 verbose etag "9BAUPW5RTV3W0838KA6Y08NTG"
+420 http request GET https://registry.npmjs.org/isarray
+421 http 304 https://registry.npmjs.org/isarray
+422 verbose headers { date: 'Tue, 26 Jul 2016 06:50:21 GMT',
+422 verbose headers   via: '1.1 varnish',
+422 verbose headers   'cache-control': 'max-age=300',
+422 verbose headers   etag: '"9BAUPW5RTV3W0838KA6Y08NTG"',
+422 verbose headers   age: '94',
+422 verbose headers   connection: 'keep-alive',
+422 verbose headers   'x-served-by': 'cache-sin6920-SIN',
+422 verbose headers   'x-cache': 'HIT',
+422 verbose headers   'x-cache-hits': '28',
+422 verbose headers   'x-timer': 'S1469515821.859253,VS0,VE0',
+422 verbose headers   vary: 'Accept-Encoding' }
+423 silly get cb [ 304,
+423 silly get   { date: 'Tue, 26 Jul 2016 06:50:21 GMT',
+423 silly get     via: '1.1 varnish',
+423 silly get     'cache-control': 'max-age=300',
+423 silly get     etag: '"9BAUPW5RTV3W0838KA6Y08NTG"',
+423 silly get     age: '94',
+423 silly get     connection: 'keep-alive',
+423 silly get     'x-served-by': 'cache-sin6920-SIN',
+423 silly get     'x-cache': 'HIT',
+423 silly get     'x-cache-hits': '28',
+423 silly get     'x-timer': 'S1469515821.859253,VS0,VE0',
+423 silly get     vary: 'Accept-Encoding' } ]
+424 verbose etag https://registry.npmjs.org/isarray from cache
+425 verbose get saving isarray to /home/vagrant/.npm/registry.npmjs.org/isarray/.cache.json
+426 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+427 silly resolveWithNewModule isarray@1.0.0 checking installable status
+428 silly cache add args [ 'isarray@~1.0.0', null ]
+429 verbose cache add spec isarray@~1.0.0
+430 silly cache add parsed spec Result {
+430 silly cache add   raw: 'isarray@~1.0.0',
+430 silly cache add   scope: null,
+430 silly cache add   name: 'isarray',
+430 silly cache add   rawSpec: '~1.0.0',
+430 silly cache add   spec: '>=1.0.0 <1.1.0',
+430 silly cache add   type: 'range' }
+431 silly addNamed isarray@>=1.0.0 <1.1.0
+432 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for isarray
+433 silly addNameRange { name: 'isarray', range: '>=1.0.0 <1.1.0', hasData: false }
+434 silly mapToRegistry name isarray
+435 silly mapToRegistry using default registry
+436 silly mapToRegistry registry https://registry.npmjs.org/
+437 silly mapToRegistry data Result {
+437 silly mapToRegistry   raw: 'isarray',
+437 silly mapToRegistry   scope: null,
+437 silly mapToRegistry   name: 'isarray',
+437 silly mapToRegistry   rawSpec: '',
+437 silly mapToRegistry   spec: 'latest',
+437 silly mapToRegistry   type: 'tag' }
+438 silly mapToRegistry uri https://registry.npmjs.org/isarray
+439 verbose addNameRange registry:https://registry.npmjs.org/isarray not in flight; fetching
+440 verbose get https://registry.npmjs.org/isarray not expired, no request
+441 silly addNameRange number 2 { name: 'isarray', range: '>=1.0.0 <1.1.0', hasData: true }
+442 silly addNameRange versions [ 'isarray', [ '0.0.0', '0.0.1', '1.0.0' ] ]
+443 silly addNamed isarray@1.0.0
+444 verbose addNamed "1.0.0" is a plain semver version for isarray
+445 silly cache afterAdd isarray@1.0.0
+446 verbose afterAdd /home/vagrant/.npm/isarray/1.0.0/package/package.json not in flight; writing
+447 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+448 verbose afterAdd /home/vagrant/.npm/isarray/1.0.0/package/package.json written
+449 silly fetchNamedPackageData assert-plus
+450 silly mapToRegistry name assert-plus
+451 silly mapToRegistry using default registry
+452 silly mapToRegistry registry https://registry.npmjs.org/
+453 silly mapToRegistry data Result {
+453 silly mapToRegistry   raw: 'assert-plus',
+453 silly mapToRegistry   scope: null,
+453 silly mapToRegistry   name: 'assert-plus',
+453 silly mapToRegistry   rawSpec: '',
+453 silly mapToRegistry   spec: 'latest',
+453 silly mapToRegistry   type: 'tag' }
+454 silly mapToRegistry uri https://registry.npmjs.org/assert-plus
+455 silly fetchNamedPackageData asn1
+456 silly mapToRegistry name asn1
+457 silly mapToRegistry using default registry
+458 silly mapToRegistry registry https://registry.npmjs.org/
+459 silly mapToRegistry data Result {
+459 silly mapToRegistry   raw: 'asn1',
+459 silly mapToRegistry   scope: null,
+459 silly mapToRegistry   name: 'asn1',
+459 silly mapToRegistry   rawSpec: '',
+459 silly mapToRegistry   spec: 'latest',
+459 silly mapToRegistry   type: 'tag' }
+460 silly mapToRegistry uri https://registry.npmjs.org/asn1
+461 verbose request uri https://registry.npmjs.org/assert-plus
+462 verbose request no auth needed
+463 info attempt registry request try #1 at 6:50:22 AM
+464 verbose etag "572K9FF70ZDBR62YB87AI9VQH"
+465 http request GET https://registry.npmjs.org/assert-plus
+466 verbose request uri https://registry.npmjs.org/asn1
+467 verbose request no auth needed
+468 info attempt registry request try #1 at 6:50:22 AM
+469 verbose etag "A8RYMBZOBS5UPZZDUD8BAQSXC"
+470 http request GET https://registry.npmjs.org/asn1
+471 http 304 https://registry.npmjs.org/asn1
+472 verbose headers { date: 'Tue, 26 Jul 2016 06:50:22 GMT',
+472 verbose headers   via: '1.1 varnish',
+472 verbose headers   'cache-control': 'max-age=300',
+472 verbose headers   etag: '"A8RYMBZOBS5UPZZDUD8BAQSXC"',
+472 verbose headers   age: '212',
+472 verbose headers   connection: 'keep-alive',
+472 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+472 verbose headers   'x-cache': 'HIT',
+472 verbose headers   'x-cache-hits': '56',
+472 verbose headers   'x-timer': 'S1469515822.238538,VS0,VE0',
+472 verbose headers   vary: 'Accept-Encoding' }
+473 silly get cb [ 304,
+473 silly get   { date: 'Tue, 26 Jul 2016 06:50:22 GMT',
+473 silly get     via: '1.1 varnish',
+473 silly get     'cache-control': 'max-age=300',
+473 silly get     etag: '"A8RYMBZOBS5UPZZDUD8BAQSXC"',
+473 silly get     age: '212',
+473 silly get     connection: 'keep-alive',
+473 silly get     'x-served-by': 'cache-sin6926-SIN',
+473 silly get     'x-cache': 'HIT',
+473 silly get     'x-cache-hits': '56',
+473 silly get     'x-timer': 'S1469515822.238538,VS0,VE0',
+473 silly get     vary: 'Accept-Encoding' } ]
+474 verbose etag https://registry.npmjs.org/asn1 from cache
+475 verbose get saving asn1 to /home/vagrant/.npm/registry.npmjs.org/asn1/.cache.json
+476 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+477 http 304 https://registry.npmjs.org/assert-plus
+478 verbose headers { date: 'Tue, 26 Jul 2016 06:50:22 GMT',
+478 verbose headers   via: '1.1 varnish',
+478 verbose headers   'cache-control': 'max-age=300',
+478 verbose headers   etag: '"572K9FF70ZDBR62YB87AI9VQH"',
+478 verbose headers   age: '212',
+478 verbose headers   connection: 'keep-alive',
+478 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+478 verbose headers   'x-cache': 'HIT',
+478 verbose headers   'x-cache-hits': '24',
+478 verbose headers   'x-timer': 'S1469515822.239798,VS0,VE0',
+478 verbose headers   vary: 'Accept-Encoding' }
+479 silly get cb [ 304,
+479 silly get   { date: 'Tue, 26 Jul 2016 06:50:22 GMT',
+479 silly get     via: '1.1 varnish',
+479 silly get     'cache-control': 'max-age=300',
+479 silly get     etag: '"572K9FF70ZDBR62YB87AI9VQH"',
+479 silly get     age: '212',
+479 silly get     connection: 'keep-alive',
+479 silly get     'x-served-by': 'cache-sin6927-SIN',
+479 silly get     'x-cache': 'HIT',
+479 silly get     'x-cache-hits': '24',
+479 silly get     'x-timer': 'S1469515822.239798,VS0,VE0',
+479 silly get     vary: 'Accept-Encoding' } ]
+480 verbose etag https://registry.npmjs.org/assert-plus from cache
+481 verbose get saving assert-plus to /home/vagrant/.npm/registry.npmjs.org/assert-plus/.cache.json
+482 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+483 silly resolveWithNewModule asn1@0.1.11 checking installable status
+484 silly cache add args [ 'asn1@0.1.11', null ]
+485 verbose cache add spec asn1@0.1.11
+486 silly cache add parsed spec Result {
+486 silly cache add   raw: 'asn1@0.1.11',
+486 silly cache add   scope: null,
+486 silly cache add   name: 'asn1',
+486 silly cache add   rawSpec: '0.1.11',
+486 silly cache add   spec: '0.1.11',
+486 silly cache add   type: 'version' }
+487 silly addNamed asn1@0.1.11
+488 verbose addNamed "0.1.11" is a plain semver version for asn1
+489 silly mapToRegistry name asn1
+490 silly mapToRegistry using default registry
+491 silly mapToRegistry registry https://registry.npmjs.org/
+492 silly mapToRegistry data Result {
+492 silly mapToRegistry   raw: 'asn1',
+492 silly mapToRegistry   scope: null,
+492 silly mapToRegistry   name: 'asn1',
+492 silly mapToRegistry   rawSpec: '',
+492 silly mapToRegistry   spec: 'latest',
+492 silly mapToRegistry   type: 'tag' }
+493 silly mapToRegistry uri https://registry.npmjs.org/asn1
+494 verbose addNameVersion registry:https://registry.npmjs.org/asn1 not in flight; fetching
+495 silly resolveWithNewModule assert-plus@0.1.5 checking installable status
+496 silly cache add args [ 'assert-plus@^0.1.5', null ]
+497 verbose cache add spec assert-plus@^0.1.5
+498 silly cache add parsed spec Result {
+498 silly cache add   raw: 'assert-plus@^0.1.5',
+498 silly cache add   scope: null,
+498 silly cache add   name: 'assert-plus',
+498 silly cache add   rawSpec: '^0.1.5',
+498 silly cache add   spec: '>=0.1.5 <0.2.0',
+498 silly cache add   type: 'range' }
+499 silly addNamed assert-plus@>=0.1.5 <0.2.0
+500 verbose addNamed ">=0.1.5 <0.2.0" is a valid semver range for assert-plus
+501 silly addNameRange { name: 'assert-plus', range: '>=0.1.5 <0.2.0', hasData: false }
+502 silly mapToRegistry name assert-plus
+503 silly mapToRegistry using default registry
+504 silly mapToRegistry registry https://registry.npmjs.org/
+505 silly mapToRegistry data Result {
+505 silly mapToRegistry   raw: 'assert-plus',
+505 silly mapToRegistry   scope: null,
+505 silly mapToRegistry   name: 'assert-plus',
+505 silly mapToRegistry   rawSpec: '',
+505 silly mapToRegistry   spec: 'latest',
+505 silly mapToRegistry   type: 'tag' }
+506 silly mapToRegistry uri https://registry.npmjs.org/assert-plus
+507 verbose addNameRange registry:https://registry.npmjs.org/assert-plus not in flight; fetching
+508 verbose get https://registry.npmjs.org/asn1 not expired, no request
+509 verbose get https://registry.npmjs.org/assert-plus not expired, no request
+510 silly addNameRange number 2 { name: 'assert-plus', range: '>=0.1.5 <0.2.0', hasData: true }
+511 silly addNameRange versions [ 'assert-plus',
+511 silly addNameRange   [ '0.1.0',
+511 silly addNameRange     '0.1.1',
+511 silly addNameRange     '0.1.2',
+511 silly addNameRange     '0.1.3',
+511 silly addNameRange     '0.1.4',
+511 silly addNameRange     '0.1.5',
+511 silly addNameRange     '0.2.0',
+511 silly addNameRange     '1.0.0' ] ]
+512 silly addNamed assert-plus@0.1.5
+513 verbose addNamed "0.1.5" is a plain semver version for assert-plus
+514 silly cache afterAdd asn1@0.1.11
+515 verbose afterAdd /home/vagrant/.npm/asn1/0.1.11/package/package.json not in flight; writing
+516 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+517 silly cache afterAdd assert-plus@0.1.5
+518 verbose afterAdd /home/vagrant/.npm/assert-plus/0.1.5/package/package.json not in flight; writing
+519 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+520 verbose afterAdd /home/vagrant/.npm/asn1/0.1.11/package/package.json written
+521 verbose afterAdd /home/vagrant/.npm/assert-plus/0.1.5/package/package.json written
+522 silly loadAllDepsIntoIdealTree Finishing
+523 silly idealTree:prePrune exit@1.0.0
+523 silly idealTree:prePrune ├── accepts@1.3.3
+523 silly idealTree:prePrune ├── ansi-regex@2.0.0
+523 silly idealTree:prePrune ├── ansi-styles@2.2.1
+523 silly idealTree:prePrune ├── array-flatten@1.1.1
+523 silly idealTree:prePrune ├── asn1@0.2.3
+523 silly idealTree:prePrune ├── assert-plus@0.2.0
+523 silly idealTree:prePrune ├── async@1.5.2
+523 silly idealTree:prePrune ├── aws-sign2@0.6.0
+523 silly idealTree:prePrune ├── aws4@1.4.1
+523 silly idealTree:prePrune ├── base64-url@1.3.2
+523 silly idealTree:prePrune ├── base64url@1.0.6
+523 silly idealTree:prePrune ├─┬ bl@1.1.2
+523 silly idealTree:prePrune │ ├── isarray@1.0.0
+523 silly idealTree:prePrune │ └── readable-stream@2.0.6
+523 silly idealTree:prePrune ├── bluebird@2.10.2
+523 silly idealTree:prePrune ├── boom@2.10.1
+523 silly idealTree:prePrune ├── buffer-equal-constant-time@1.0.1
+523 silly idealTree:prePrune ├── camelcase-keys@1.0.0
+523 silly idealTree:prePrune ├── camelcase@1.2.1
+523 silly idealTree:prePrune ├── caseless@0.11.0
+523 silly idealTree:prePrune ├── chalk@1.1.3
+523 silly idealTree:prePrune ├── combined-stream@1.0.5
+523 silly idealTree:prePrune ├── commander@2.9.0
+523 silly idealTree:prePrune ├── concat-stream@1.4.10
+523 silly idealTree:prePrune ├── content-disposition@0.5.1
+523 silly idealTree:prePrune ├── content-type@1.0.2
+523 silly idealTree:prePrune ├── cookie-signature@1.0.6
+523 silly idealTree:prePrune ├── cookie@0.3.1
+523 silly idealTree:prePrune ├── core-util-is@1.0.2
+523 silly idealTree:prePrune ├── cryptiles@2.0.5
+523 silly idealTree:prePrune ├── ctype@0.5.3
+523 silly idealTree:prePrune ├─┬ dashdash@1.14.0
+523 silly idealTree:prePrune │ └── assert-plus@1.0.0
+523 silly idealTree:prePrune ├── debug@2.2.0
+523 silly idealTree:prePrune ├── delayed-stream@1.0.0
+523 silly idealTree:prePrune ├── depd@1.1.0
+523 silly idealTree:prePrune ├── destroy@1.0.4
+523 silly idealTree:prePrune ├── ecc-jsbn@0.1.1
+523 silly idealTree:prePrune ├── ecdsa-sig-formatter@1.0.7
+523 silly idealTree:prePrune ├── ee-first@1.1.1
+523 silly idealTree:prePrune ├── encodeurl@1.0.1
+523 silly idealTree:prePrune ├── escape-html@1.0.3
+523 silly idealTree:prePrune ├── escape-string-regexp@1.0.5
+523 silly idealTree:prePrune ├── etag@1.7.0
+523 silly idealTree:prePrune ├── extend@3.0.0
+523 silly idealTree:prePrune ├── extsprintf@1.0.2
+523 silly idealTree:prePrune ├── finalhandler@0.5.0
+523 silly idealTree:prePrune ├── forever-agent@0.6.1
+523 silly idealTree:prePrune ├── form-data@1.0.0-rc4
+523 silly idealTree:prePrune ├── forwarded@0.1.0
+523 silly idealTree:prePrune ├── fresh@0.3.0
+523 silly idealTree:prePrune ├── gapitoken@0.1.5
+523 silly idealTree:prePrune ├── generate-function@2.0.0
+523 silly idealTree:prePrune ├── generate-object-property@1.2.0
+523 silly idealTree:prePrune ├── get-stdin@4.0.1
+523 silly idealTree:prePrune ├─┬ getpass@0.1.6
+523 silly idealTree:prePrune │ └── assert-plus@1.0.0
+523 silly idealTree:prePrune ├─┬ google-auth-library@0.9.8
+523 silly idealTree:prePrune │ ├── asn1@0.1.11
+523 silly idealTree:prePrune │ ├── assert-plus@0.1.5
+523 silly idealTree:prePrune │ ├── async@1.4.2
+523 silly idealTree:prePrune │ ├── aws-sign2@0.5.0
+523 silly idealTree:prePrune │ ├── bl@1.0.3
+523 silly idealTree:prePrune │ ├── har-validator@1.8.0
+523 silly idealTree:prePrune │ ├── http-signature@0.11.0
+523 silly idealTree:prePrune │ ├── isarray@1.0.0
+523 silly idealTree:prePrune │ ├── qs@4.0.0
+523 silly idealTree:prePrune │ ├── readable-stream@2.0.6
+523 silly idealTree:prePrune │ ├── request@2.60.0
+523 silly idealTree:prePrune │ └── string-template@0.2.1
+523 silly idealTree:prePrune ├── google-p12-pem@0.1.0
+523 silly idealTree:prePrune ├── graceful-readlink@1.0.1
+523 silly idealTree:prePrune ├── gtoken@1.2.1
+523 silly idealTree:prePrune ├── har-validator@2.0.6
+523 silly idealTree:prePrune ├── has-ansi@2.0.0
+523 silly idealTree:prePrune ├── hawk@3.1.3
+523 silly idealTree:prePrune ├── hoek@2.16.3
+523 silly idealTree:prePrune ├── http-errors@1.5.0
+523 silly idealTree:prePrune ├── http-signature@1.1.1
+523 silly idealTree:prePrune ├── indent-string@1.2.2
+523 silly idealTree:prePrune ├── inherits@2.0.1
+523 silly idealTree:prePrune ├── ipaddr.js@1.1.1
+523 silly idealTree:prePrune ├── is-finite@1.0.1
+523 silly idealTree:prePrune ├── is-my-json-valid@2.13.1
+523 silly idealTree:prePrune ├── is-property@1.0.2
+523 silly idealTree:prePrune ├── is-typedarray@1.0.0
+523 silly idealTree:prePrune ├── isarray@0.0.1
+523 silly idealTree:prePrune ├── isstream@0.1.2
+523 silly idealTree:prePrune ├── jodid25519@1.0.2
+523 silly idealTree:prePrune ├── jsbn@0.1.0
+523 silly idealTree:prePrune ├── json-schema@0.2.2
+523 silly idealTree:prePrune ├── json-stringify-safe@5.0.1
+523 silly idealTree:prePrune ├── jsonpointer@2.0.0
+523 silly idealTree:prePrune ├── jsprim@1.3.0
+523 silly idealTree:prePrune ├─┬ jwa@1.0.2
+523 silly idealTree:prePrune │ └── base64url@0.0.6
+523 silly idealTree:prePrune ├── jws@3.0.0
+523 silly idealTree:prePrune ├── lodash.noop@3.0.1
+523 silly idealTree:prePrune ├── map-obj@1.0.1
+523 silly idealTree:prePrune ├── media-typer@0.3.0
+523 silly idealTree:prePrune ├── meow@2.0.0
+523 silly idealTree:prePrune ├── merge-descriptors@1.0.1
+523 silly idealTree:prePrune ├── methods@1.1.2
+523 silly idealTree:prePrune ├── mime-db@1.23.0
+523 silly idealTree:prePrune ├── mime-types@2.1.11
+523 silly idealTree:prePrune ├── mime@1.3.4
+523 silly idealTree:prePrune ├── minimist@1.2.0
+523 silly idealTree:prePrune ├── ms@0.7.1
+523 silly idealTree:prePrune ├── negotiator@0.6.1
+523 silly idealTree:prePrune ├── node-forge@0.6.41
+523 silly idealTree:prePrune ├── node-uuid@1.4.7
+523 silly idealTree:prePrune ├── number-is-nan@1.0.0
+523 silly idealTree:prePrune ├── oauth-sign@0.8.2
+523 silly idealTree:prePrune ├── object-assign@1.0.0
+523 silly idealTree:prePrune ├── on-finished@2.3.0
+523 silly idealTree:prePrune ├── parseurl@1.3.1
+523 silly idealTree:prePrune ├── path-to-regexp@0.1.7
+523 silly idealTree:prePrune ├── pinkie-promise@2.0.1
+523 silly idealTree:prePrune ├── pinkie@2.0.4
+523 silly idealTree:prePrune ├── process-nextick-args@1.0.7
+523 silly idealTree:prePrune ├── proxy-addr@1.1.2
+523 silly idealTree:prePrune ├── punycode@1.3.2
+523 silly idealTree:prePrune ├── qs@6.2.0
+523 silly idealTree:prePrune ├── querystring@0.2.0
+523 silly idealTree:prePrune ├── range-parser@1.2.0
+523 silly idealTree:prePrune ├── readable-stream@1.1.14
+523 silly idealTree:prePrune ├── repeating@1.1.3
+523 silly idealTree:prePrune ├─┬ request@2.72.0
+523 silly idealTree:prePrune │ └── qs@6.1.0
+523 silly idealTree:prePrune ├── send@0.14.1
+523 silly idealTree:prePrune ├── serve-static@1.11.1
+523 silly idealTree:prePrune ├── setprototypeof@1.0.1
+523 silly idealTree:prePrune ├── sntp@1.0.9
+523 silly idealTree:prePrune ├─┬ sshpk@1.8.3
+523 silly idealTree:prePrune │ └── assert-plus@1.0.0
+523 silly idealTree:prePrune ├── statuses@1.3.0
+523 silly idealTree:prePrune ├── string_decoder@0.10.31
+523 silly idealTree:prePrune ├── string-template@1.0.0
+523 silly idealTree:prePrune ├── stringstream@0.0.5
+523 silly idealTree:prePrune ├── strip-ansi@3.0.1
+523 silly idealTree:prePrune ├── supports-color@2.0.0
+523 silly idealTree:prePrune ├── tough-cookie@2.2.2
+523 silly idealTree:prePrune ├── tunnel-agent@0.4.3
+523 silly idealTree:prePrune ├── tweetnacl@0.13.3
+523 silly idealTree:prePrune ├── type-is@1.6.13
+523 silly idealTree:prePrune ├── typedarray@0.0.6
+523 silly idealTree:prePrune ├── unpipe@1.0.0
+523 silly idealTree:prePrune ├── url@0.11.0
+523 silly idealTree:prePrune ├── util-deprecate@1.0.2
+523 silly idealTree:prePrune ├── utils-merge@1.0.0
+523 silly idealTree:prePrune ├── vary@1.1.0
+523 silly idealTree:prePrune ├── verror@1.3.6
+523 silly idealTree:prePrune └── xtend@4.0.1
+524 silly loadIdealTree Finishing
+525 silly currentTree exit@1.0.0
+525 silly currentTree ├── accepts@1.3.3
+525 silly currentTree ├── ansi-regex@2.0.0
+525 silly currentTree ├── ansi-styles@2.2.1
+525 silly currentTree ├── array-flatten@1.1.1
+525 silly currentTree ├── asn1@0.2.3
+525 silly currentTree ├── assert-plus@0.2.0
+525 silly currentTree ├── async@1.5.2
+525 silly currentTree ├── aws-sign2@0.6.0
+525 silly currentTree ├── aws4@1.4.1
+525 silly currentTree ├── base64-url@1.3.2
+525 silly currentTree ├── base64url@1.0.6
+525 silly currentTree ├─┬ bl@1.1.2
+525 silly currentTree │ ├── isarray@1.0.0
+525 silly currentTree │ └── readable-stream@2.0.6
+525 silly currentTree ├── bluebird@2.10.2
+525 silly currentTree ├── boom@2.10.1
+525 silly currentTree ├── buffer-equal-constant-time@1.0.1
+525 silly currentTree ├── camelcase-keys@1.0.0
+525 silly currentTree ├── camelcase@1.2.1
+525 silly currentTree ├── caseless@0.11.0
+525 silly currentTree ├── chalk@1.1.3
+525 silly currentTree ├── combined-stream@1.0.5
+525 silly currentTree ├── commander@2.9.0
+525 silly currentTree ├── concat-stream@1.4.10
+525 silly currentTree ├── content-disposition@0.5.1
+525 silly currentTree ├── content-type@1.0.2
+525 silly currentTree ├── cookie-signature@1.0.6
+525 silly currentTree ├── cookie@0.3.1
+525 silly currentTree ├── core-util-is@1.0.2
+525 silly currentTree ├── cryptiles@2.0.5
+525 silly currentTree ├── ctype@0.5.3
+525 silly currentTree ├─┬ dashdash@1.14.0
+525 silly currentTree │ └── assert-plus@1.0.0
+525 silly currentTree ├── debug@2.2.0
+525 silly currentTree ├── delayed-stream@1.0.0
+525 silly currentTree ├── depd@1.1.0
+525 silly currentTree ├── destroy@1.0.4
+525 silly currentTree ├── ecc-jsbn@0.1.1
+525 silly currentTree ├── ecdsa-sig-formatter@1.0.7
+525 silly currentTree ├── ee-first@1.1.1
+525 silly currentTree ├── encodeurl@1.0.1
+525 silly currentTree ├── escape-html@1.0.3
+525 silly currentTree ├── escape-string-regexp@1.0.5
+525 silly currentTree ├── etag@1.7.0
+525 silly currentTree ├── extend@3.0.0
+525 silly currentTree ├── extsprintf@1.0.2
+525 silly currentTree ├── finalhandler@0.5.0
+525 silly currentTree ├── forever-agent@0.6.1
+525 silly currentTree ├── form-data@1.0.0-rc4
+525 silly currentTree ├── forwarded@0.1.0
+525 silly currentTree ├── fresh@0.3.0
+525 silly currentTree ├── gapitoken@0.1.5
+525 silly currentTree ├── generate-function@2.0.0
+525 silly currentTree ├── generate-object-property@1.2.0
+525 silly currentTree ├── get-stdin@4.0.1
+525 silly currentTree ├─┬ getpass@0.1.6
+525 silly currentTree │ └── assert-plus@1.0.0
+525 silly currentTree ├── google-p12-pem@0.1.0
+525 silly currentTree ├── graceful-readlink@1.0.1
+525 silly currentTree ├── gtoken@1.2.1
+525 silly currentTree ├── har-validator@2.0.6
+525 silly currentTree ├── has-ansi@2.0.0
+525 silly currentTree ├── hawk@3.1.3
+525 silly currentTree ├── hoek@2.16.3
+525 silly currentTree ├── http-errors@1.5.0
+525 silly currentTree ├── http-signature@1.1.1
+525 silly currentTree ├── indent-string@1.2.2
+525 silly currentTree ├── inherits@2.0.1
+525 silly currentTree ├── ipaddr.js@1.1.1
+525 silly currentTree ├── is-finite@1.0.1
+525 silly currentTree ├── is-my-json-valid@2.13.1
+525 silly currentTree ├── is-property@1.0.2
+525 silly currentTree ├── is-typedarray@1.0.0
+525 silly currentTree ├── isarray@0.0.1
+525 silly currentTree ├── isstream@0.1.2
+525 silly currentTree ├── jodid25519@1.0.2
+525 silly currentTree ├── jsbn@0.1.0
+525 silly currentTree ├── json-schema@0.2.2
+525 silly currentTree ├── json-stringify-safe@5.0.1
+525 silly currentTree ├── jsonpointer@2.0.0
+525 silly currentTree ├── jsprim@1.3.0
+525 silly currentTree ├─┬ jwa@1.0.2
+525 silly currentTree │ └── base64url@0.0.6
+525 silly currentTree ├── jws@3.0.0
+525 silly currentTree ├── lodash.noop@3.0.1
+525 silly currentTree ├── map-obj@1.0.1
+525 silly currentTree ├── media-typer@0.3.0
+525 silly currentTree ├── meow@2.0.0
+525 silly currentTree ├── merge-descriptors@1.0.1
+525 silly currentTree ├── methods@1.1.2
+525 silly currentTree ├── mime-db@1.23.0
+525 silly currentTree ├── mime-types@2.1.11
+525 silly currentTree ├── mime@1.3.4
+525 silly currentTree ├── minimist@1.2.0
+525 silly currentTree ├── ms@0.7.1
+525 silly currentTree ├── negotiator@0.6.1
+525 silly currentTree ├── node-forge@0.6.41
+525 silly currentTree ├── node-uuid@1.4.7
+525 silly currentTree ├── number-is-nan@1.0.0
+525 silly currentTree ├── oauth-sign@0.8.2
+525 silly currentTree ├── object-assign@1.0.0
+525 silly currentTree ├── on-finished@2.3.0
+525 silly currentTree ├── parseurl@1.3.1
+525 silly currentTree ├── path-to-regexp@0.1.7
+525 silly currentTree ├── pinkie-promise@2.0.1
+525 silly currentTree ├── pinkie@2.0.4
+525 silly currentTree ├── process-nextick-args@1.0.7
+525 silly currentTree ├── proxy-addr@1.1.2
+525 silly currentTree ├── punycode@1.3.2
+525 silly currentTree ├── qs@6.2.0
+525 silly currentTree ├── querystring@0.2.0
+525 silly currentTree ├── range-parser@1.2.0
+525 silly currentTree ├── readable-stream@1.1.14
+525 silly currentTree ├── repeating@1.1.3
+525 silly currentTree ├─┬ request@2.72.0
+525 silly currentTree │ └── qs@6.1.0
+525 silly currentTree ├── send@0.14.1
+525 silly currentTree ├── serve-static@1.11.1
+525 silly currentTree ├── setprototypeof@1.0.1
+525 silly currentTree ├── sntp@1.0.9
+525 silly currentTree ├─┬ sshpk@1.8.3
+525 silly currentTree │ └── assert-plus@1.0.0
+525 silly currentTree ├── statuses@1.3.0
+525 silly currentTree ├── string_decoder@0.10.31
+525 silly currentTree ├── string-template@1.0.0
+525 silly currentTree ├── stringstream@0.0.5
+525 silly currentTree ├── strip-ansi@3.0.1
+525 silly currentTree ├── supports-color@2.0.0
+525 silly currentTree ├── tough-cookie@2.2.2
+525 silly currentTree ├── tunnel-agent@0.4.3
+525 silly currentTree ├── tweetnacl@0.13.3
+525 silly currentTree ├── type-is@1.6.13
+525 silly currentTree ├── typedarray@0.0.6
+525 silly currentTree ├── unpipe@1.0.0
+525 silly currentTree ├── url@0.11.0
+525 silly currentTree ├── util-deprecate@1.0.2
+525 silly currentTree ├── utils-merge@1.0.0
+525 silly currentTree ├── vary@1.1.0
+525 silly currentTree ├── verror@1.3.6
+525 silly currentTree └── xtend@4.0.1
+526 silly idealTree exit@1.0.0
+526 silly idealTree ├── accepts@1.3.3
+526 silly idealTree ├── ansi-regex@2.0.0
+526 silly idealTree ├── ansi-styles@2.2.1
+526 silly idealTree ├── array-flatten@1.1.1
+526 silly idealTree ├── asn1@0.2.3
+526 silly idealTree ├── assert-plus@0.2.0
+526 silly idealTree ├── async@1.5.2
+526 silly idealTree ├── aws-sign2@0.6.0
+526 silly idealTree ├── aws4@1.4.1
+526 silly idealTree ├── base64-url@1.3.2
+526 silly idealTree ├── base64url@1.0.6
+526 silly idealTree ├─┬ bl@1.1.2
+526 silly idealTree │ ├── isarray@1.0.0
+526 silly idealTree │ └── readable-stream@2.0.6
+526 silly idealTree ├── bluebird@2.10.2
+526 silly idealTree ├── boom@2.10.1
+526 silly idealTree ├── buffer-equal-constant-time@1.0.1
+526 silly idealTree ├── camelcase-keys@1.0.0
+526 silly idealTree ├── camelcase@1.2.1
+526 silly idealTree ├── caseless@0.11.0
+526 silly idealTree ├── chalk@1.1.3
+526 silly idealTree ├── combined-stream@1.0.5
+526 silly idealTree ├── commander@2.9.0
+526 silly idealTree ├── concat-stream@1.4.10
+526 silly idealTree ├── content-disposition@0.5.1
+526 silly idealTree ├── content-type@1.0.2
+526 silly idealTree ├── cookie-signature@1.0.6
+526 silly idealTree ├── cookie@0.3.1
+526 silly idealTree ├── core-util-is@1.0.2
+526 silly idealTree ├── cryptiles@2.0.5
+526 silly idealTree ├── ctype@0.5.3
+526 silly idealTree ├─┬ dashdash@1.14.0
+526 silly idealTree │ └── assert-plus@1.0.0
+526 silly idealTree ├── debug@2.2.0
+526 silly idealTree ├── delayed-stream@1.0.0
+526 silly idealTree ├── depd@1.1.0
+526 silly idealTree ├── destroy@1.0.4
+526 silly idealTree ├── ecc-jsbn@0.1.1
+526 silly idealTree ├── ecdsa-sig-formatter@1.0.7
+526 silly idealTree ├── ee-first@1.1.1
+526 silly idealTree ├── encodeurl@1.0.1
+526 silly idealTree ├── escape-html@1.0.3
+526 silly idealTree ├── escape-string-regexp@1.0.5
+526 silly idealTree ├── etag@1.7.0
+526 silly idealTree ├── extend@3.0.0
+526 silly idealTree ├── extsprintf@1.0.2
+526 silly idealTree ├── finalhandler@0.5.0
+526 silly idealTree ├── forever-agent@0.6.1
+526 silly idealTree ├── form-data@1.0.0-rc4
+526 silly idealTree ├── forwarded@0.1.0
+526 silly idealTree ├── fresh@0.3.0
+526 silly idealTree ├── gapitoken@0.1.5
+526 silly idealTree ├── generate-function@2.0.0
+526 silly idealTree ├── generate-object-property@1.2.0
+526 silly idealTree ├── get-stdin@4.0.1
+526 silly idealTree ├─┬ getpass@0.1.6
+526 silly idealTree │ └── assert-plus@1.0.0
+526 silly idealTree ├─┬ google-auth-library@0.9.8
+526 silly idealTree │ ├── asn1@0.1.11
+526 silly idealTree │ ├── assert-plus@0.1.5
+526 silly idealTree │ ├── async@1.4.2
+526 silly idealTree │ ├── aws-sign2@0.5.0
+526 silly idealTree │ ├── bl@1.0.3
+526 silly idealTree │ ├── har-validator@1.8.0
+526 silly idealTree │ ├── http-signature@0.11.0
+526 silly idealTree │ ├── isarray@1.0.0
+526 silly idealTree │ ├── qs@4.0.0
+526 silly idealTree │ ├── readable-stream@2.0.6
+526 silly idealTree │ ├── request@2.60.0
+526 silly idealTree │ └── string-template@0.2.1
+526 silly idealTree ├── google-p12-pem@0.1.0
+526 silly idealTree ├── graceful-readlink@1.0.1
+526 silly idealTree ├── gtoken@1.2.1
+526 silly idealTree ├── har-validator@2.0.6
+526 silly idealTree ├── has-ansi@2.0.0
+526 silly idealTree ├── hawk@3.1.3
+526 silly idealTree ├── hoek@2.16.3
+526 silly idealTree ├── http-errors@1.5.0
+526 silly idealTree ├── http-signature@1.1.1
+526 silly idealTree ├── indent-string@1.2.2
+526 silly idealTree ├── inherits@2.0.1
+526 silly idealTree ├── ipaddr.js@1.1.1
+526 silly idealTree ├── is-finite@1.0.1
+526 silly idealTree ├── is-my-json-valid@2.13.1
+526 silly idealTree ├── is-property@1.0.2
+526 silly idealTree ├── is-typedarray@1.0.0
+526 silly idealTree ├── isarray@0.0.1
+526 silly idealTree ├── isstream@0.1.2
+526 silly idealTree ├── jodid25519@1.0.2
+526 silly idealTree ├── jsbn@0.1.0
+526 silly idealTree ├── json-schema@0.2.2
+526 silly idealTree ├── json-stringify-safe@5.0.1
+526 silly idealTree ├── jsonpointer@2.0.0
+526 silly idealTree ├── jsprim@1.3.0
+526 silly idealTree ├─┬ jwa@1.0.2
+526 silly idealTree │ └── base64url@0.0.6
+526 silly idealTree ├── jws@3.0.0
+526 silly idealTree ├── lodash.noop@3.0.1
+526 silly idealTree ├── map-obj@1.0.1
+526 silly idealTree ├── media-typer@0.3.0
+526 silly idealTree ├── meow@2.0.0
+526 silly idealTree ├── merge-descriptors@1.0.1
+526 silly idealTree ├── methods@1.1.2
+526 silly idealTree ├── mime-db@1.23.0
+526 silly idealTree ├── mime-types@2.1.11
+526 silly idealTree ├── mime@1.3.4
+526 silly idealTree ├── minimist@1.2.0
+526 silly idealTree ├── ms@0.7.1
+526 silly idealTree ├── negotiator@0.6.1
+526 silly idealTree ├── node-forge@0.6.41
+526 silly idealTree ├── node-uuid@1.4.7
+526 silly idealTree ├── number-is-nan@1.0.0
+526 silly idealTree ├── oauth-sign@0.8.2
+526 silly idealTree ├── object-assign@1.0.0
+526 silly idealTree ├── on-finished@2.3.0
+526 silly idealTree ├── parseurl@1.3.1
+526 silly idealTree ├── path-to-regexp@0.1.7
+526 silly idealTree ├── pinkie-promise@2.0.1
+526 silly idealTree ├── pinkie@2.0.4
+526 silly idealTree ├── process-nextick-args@1.0.7
+526 silly idealTree ├── proxy-addr@1.1.2
+526 silly idealTree ├── punycode@1.3.2
+526 silly idealTree ├── qs@6.2.0
+526 silly idealTree ├── querystring@0.2.0
+526 silly idealTree ├── range-parser@1.2.0
+526 silly idealTree ├── readable-stream@1.1.14
+526 silly idealTree ├── repeating@1.1.3
+526 silly idealTree ├─┬ request@2.72.0
+526 silly idealTree │ └── qs@6.1.0
+526 silly idealTree ├── send@0.14.1
+526 silly idealTree ├── serve-static@1.11.1
+526 silly idealTree ├── setprototypeof@1.0.1
+526 silly idealTree ├── sntp@1.0.9
+526 silly idealTree ├─┬ sshpk@1.8.3
+526 silly idealTree │ └── assert-plus@1.0.0
+526 silly idealTree ├── statuses@1.3.0
+526 silly idealTree ├── string_decoder@0.10.31
+526 silly idealTree ├── string-template@1.0.0
+526 silly idealTree ├── stringstream@0.0.5
+526 silly idealTree ├── strip-ansi@3.0.1
+526 silly idealTree ├── supports-color@2.0.0
+526 silly idealTree ├── tough-cookie@2.2.2
+526 silly idealTree ├── tunnel-agent@0.4.3
+526 silly idealTree ├── tweetnacl@0.13.3
+526 silly idealTree ├── type-is@1.6.13
+526 silly idealTree ├── typedarray@0.0.6
+526 silly idealTree ├── unpipe@1.0.0
+526 silly idealTree ├── url@0.11.0
+526 silly idealTree ├── util-deprecate@1.0.2
+526 silly idealTree ├── utils-merge@1.0.0
+526 silly idealTree ├── vary@1.1.0
+526 silly idealTree ├── verror@1.3.6
+526 silly idealTree └── xtend@4.0.1
+527 silly generateActionsToTake Starting
+528 silly install generateActionsToTake
+529 silly generateActionsToTake Finishing
+530 silly diffTrees action count 13
+531 silly diffTrees add asn1@0.1.11
+532 silly diffTrees add assert-plus@0.1.5
+533 silly diffTrees add async@1.4.2
+534 silly diffTrees add aws-sign2@0.5.0
+535 silly diffTrees add har-validator@1.8.0
+536 silly diffTrees add http-signature@0.11.0
+537 silly diffTrees add isarray@1.0.0
+538 silly diffTrees add qs@4.0.0
+539 silly diffTrees add readable-stream@2.0.6
+540 silly diffTrees add bl@1.0.3
+541 silly diffTrees add request@2.60.0
+542 silly diffTrees add string-template@0.2.1
+543 silly diffTrees add google-auth-library@0.9.8
+544 silly decomposeActions action count 104
+545 silly decomposeActions fetch asn1@0.1.11
+546 silly decomposeActions extract asn1@0.1.11
+547 silly decomposeActions test asn1@0.1.11
+548 silly decomposeActions preinstall asn1@0.1.11
+549 silly decomposeActions build asn1@0.1.11
+550 silly decomposeActions install asn1@0.1.11
+551 silly decomposeActions postinstall asn1@0.1.11
+552 silly decomposeActions finalize asn1@0.1.11
+553 silly decomposeActions fetch assert-plus@0.1.5
+554 silly decomposeActions extract assert-plus@0.1.5
+555 silly decomposeActions test assert-plus@0.1.5
+556 silly decomposeActions preinstall assert-plus@0.1.5
+557 silly decomposeActions build assert-plus@0.1.5
+558 silly decomposeActions install assert-plus@0.1.5
+559 silly decomposeActions postinstall assert-plus@0.1.5
+560 silly decomposeActions finalize assert-plus@0.1.5
+561 silly decomposeActions fetch async@1.4.2
+562 silly decomposeActions extract async@1.4.2
+563 silly decomposeActions test async@1.4.2
+564 silly decomposeActions preinstall async@1.4.2
+565 silly decomposeActions build async@1.4.2
+566 silly decomposeActions install async@1.4.2
+567 silly decomposeActions postinstall async@1.4.2
+568 silly decomposeActions finalize async@1.4.2
+569 silly decomposeActions fetch aws-sign2@0.5.0
+570 silly decomposeActions extract aws-sign2@0.5.0
+571 silly decomposeActions test aws-sign2@0.5.0
+572 silly decomposeActions preinstall aws-sign2@0.5.0
+573 silly decomposeActions build aws-sign2@0.5.0
+574 silly decomposeActions install aws-sign2@0.5.0
+575 silly decomposeActions postinstall aws-sign2@0.5.0
+576 silly decomposeActions finalize aws-sign2@0.5.0
+577 silly decomposeActions fetch har-validator@1.8.0
+578 silly decomposeActions extract har-validator@1.8.0
+579 silly decomposeActions test har-validator@1.8.0
+580 silly decomposeActions preinstall har-validator@1.8.0
+581 silly decomposeActions build har-validator@1.8.0
+582 silly decomposeActions install har-validator@1.8.0
+583 silly decomposeActions postinstall har-validator@1.8.0
+584 silly decomposeActions finalize har-validator@1.8.0
+585 silly decomposeActions fetch http-signature@0.11.0
+586 silly decomposeActions extract http-signature@0.11.0
+587 silly decomposeActions test http-signature@0.11.0
+588 silly decomposeActions preinstall http-signature@0.11.0
+589 silly decomposeActions build http-signature@0.11.0
+590 silly decomposeActions install http-signature@0.11.0
+591 silly decomposeActions postinstall http-signature@0.11.0
+592 silly decomposeActions finalize http-signature@0.11.0
+593 silly decomposeActions fetch isarray@1.0.0
+594 silly decomposeActions extract isarray@1.0.0
+595 silly decomposeActions test isarray@1.0.0
+596 silly decomposeActions preinstall isarray@1.0.0
+597 silly decomposeActions build isarray@1.0.0
+598 silly decomposeActions install isarray@1.0.0
+599 silly decomposeActions postinstall isarray@1.0.0
+600 silly decomposeActions finalize isarray@1.0.0
+601 silly decomposeActions fetch qs@4.0.0
+602 silly decomposeActions extract qs@4.0.0
+603 silly decomposeActions test qs@4.0.0
+604 silly decomposeActions preinstall qs@4.0.0
+605 silly decomposeActions build qs@4.0.0
+606 silly decomposeActions install qs@4.0.0
+607 silly decomposeActions postinstall qs@4.0.0
+608 silly decomposeActions finalize qs@4.0.0
+609 silly decomposeActions fetch readable-stream@2.0.6
+610 silly decomposeActions extract readable-stream@2.0.6
+611 silly decomposeActions test readable-stream@2.0.6
+612 silly decomposeActions preinstall readable-stream@2.0.6
+613 silly decomposeActions build readable-stream@2.0.6
+614 silly decomposeActions install readable-stream@2.0.6
+615 silly decomposeActions postinstall readable-stream@2.0.6
+616 silly decomposeActions finalize readable-stream@2.0.6
+617 silly decomposeActions fetch bl@1.0.3
+618 silly decomposeActions extract bl@1.0.3
+619 silly decomposeActions test bl@1.0.3
+620 silly decomposeActions preinstall bl@1.0.3
+621 silly decomposeActions build bl@1.0.3
+622 silly decomposeActions install bl@1.0.3
+623 silly decomposeActions postinstall bl@1.0.3
+624 silly decomposeActions finalize bl@1.0.3
+625 silly decomposeActions fetch request@2.60.0
+626 silly decomposeActions extract request@2.60.0
+627 silly decomposeActions test request@2.60.0
+628 silly decomposeActions preinstall request@2.60.0
+629 silly decomposeActions build request@2.60.0
+630 silly decomposeActions install request@2.60.0
+631 silly decomposeActions postinstall request@2.60.0
+632 silly decomposeActions finalize request@2.60.0
+633 silly decomposeActions fetch string-template@0.2.1
+634 silly decomposeActions extract string-template@0.2.1
+635 silly decomposeActions test string-template@0.2.1
+636 silly decomposeActions preinstall string-template@0.2.1
+637 silly decomposeActions build string-template@0.2.1
+638 silly decomposeActions install string-template@0.2.1
+639 silly decomposeActions postinstall string-template@0.2.1
+640 silly decomposeActions finalize string-template@0.2.1
+641 silly decomposeActions fetch google-auth-library@0.9.8
+642 silly decomposeActions extract google-auth-library@0.9.8
+643 silly decomposeActions test google-auth-library@0.9.8
+644 silly decomposeActions preinstall google-auth-library@0.9.8
+645 silly decomposeActions build google-auth-library@0.9.8
+646 silly decomposeActions install google-auth-library@0.9.8
+647 silly decomposeActions postinstall google-auth-library@0.9.8
+648 silly decomposeActions finalize google-auth-library@0.9.8
+649 silly executeActions Starting
+650 silly install executeActions
+651 silly doSerial global-install 0
+652 silly doParallel fetch 13
+653 verbose correctMkdir /home/vagrant/.npm/_locks correctMkdir not in flight; initializing
+654 verbose lock using /home/vagrant/.npm/_locks/staging-453d7b5ab8195345.lock for /vagrant/GmailApp/node_modules/.staging
+655 silly doParallel extract 13
+656 silly extract asn1@0.1.11
+657 silly extract assert-plus@0.1.5
+658 silly extract async@1.4.2
+659 silly extract aws-sign2@0.5.0
+660 silly extract har-validator@1.8.0
+661 silly extract http-signature@0.11.0
+662 silly extract isarray@1.0.0
+663 silly extract qs@4.0.0
+664 silly extract readable-stream@2.0.6
+665 silly extract bl@1.0.3
+666 silly extract request@2.60.0
+667 silly extract string-template@0.2.1
+668 silly extract google-auth-library@0.9.8
+669 verbose unbuild node_modules/.staging/asn1-844b953c
+670 verbose unbuild node_modules/.staging/assert-plus-ee29e271
+671 verbose unbuild node_modules/.staging/async-be7d1804
+672 verbose unbuild node_modules/.staging/aws-sign2-7a01567d
+673 verbose unbuild node_modules/.staging/http-signature-5cbaa8eb
+674 verbose unbuild node_modules/.staging/isarray-5b8dcf3c
+675 verbose unbuild node_modules/.staging/qs-ba1602f1
+676 verbose unbuild node_modules/.staging/readable-stream-403f1d83
+677 verbose unbuild node_modules/.staging/bl-917be3b6
+678 verbose unbuild node_modules/.staging/request-b97d32c0
+679 verbose unbuild node_modules/.staging/string-template-bab5daea
+680 verbose unbuild node_modules/.staging/google-auth-library-32e787a9
+681 verbose unbuild node_modules/.staging/har-validator-5ac59e93
+682 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/assert-plus-ee29e271 is being purged from base /vagrant/GmailApp
+683 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/assert-plus-ee29e271
+684 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/asn1-844b953c is being purged from base /vagrant/GmailApp
+685 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/asn1-844b953c
+686 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/async-be7d1804 is being purged from base /vagrant/GmailApp
+687 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/async-be7d1804
+688 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/aws-sign2-7a01567d is being purged from base /vagrant/GmailApp
+689 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/aws-sign2-7a01567d
+690 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/http-signature-5cbaa8eb is being purged from base /vagrant/GmailApp
+691 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/http-signature-5cbaa8eb
+692 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/isarray-5b8dcf3c is being purged from base /vagrant/GmailApp
+693 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/isarray-5b8dcf3c
+694 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/qs-ba1602f1 is being purged from base /vagrant/GmailApp
+695 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/qs-ba1602f1
+696 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/readable-stream-403f1d83 is being purged from base /vagrant/GmailApp
+697 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/readable-stream-403f1d83
+698 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/bl-917be3b6 is being purged from base /vagrant/GmailApp
+699 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/bl-917be3b6
+700 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/request-b97d32c0 is being purged from base /vagrant/GmailApp
+701 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/request-b97d32c0
+702 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/string-template-bab5daea is being purged from base /vagrant/GmailApp
+703 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/string-template-bab5daea
+704 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/google-auth-library-32e787a9 is being purged from base /vagrant/GmailApp
+705 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/google-auth-library-32e787a9
+706 verbose tar unpack /home/vagrant/.npm/assert-plus/0.1.5/package.tgz
+707 verbose tar unpacking to /vagrant/GmailApp/node_modules/.staging/assert-plus-ee29e271
+708 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/assert-plus-ee29e271 is being purged
+709 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/assert-plus-ee29e271
+710 verbose tar unpack /home/vagrant/.npm/asn1/0.1.11/package.tgz
+711 verbose tar unpacking to /vagrant/GmailApp/node_modules/.staging/asn1-844b953c
+712 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/asn1-844b953c is being purged
+713 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/asn1-844b953c
+714 verbose tar unpack /home/vagrant/.npm/async/1.4.2/package.tgz
+715 verbose tar unpacking to /vagrant/GmailApp/node_modules/.staging/async-be7d1804
+716 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/async-be7d1804 is being purged
+717 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/async-be7d1804
+718 verbose tar unpack /home/vagrant/.npm/aws-sign2/0.5.0/package.tgz
+719 verbose tar unpacking to /vagrant/GmailApp/node_modules/.staging/aws-sign2-7a01567d
+720 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/aws-sign2-7a01567d is being purged
+721 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/aws-sign2-7a01567d
+722 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/har-validator-5ac59e93 is being purged from base /vagrant/GmailApp
+723 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/har-validator-5ac59e93
+724 verbose tar unpack /home/vagrant/.npm/http-signature/0.11.0/package.tgz
+725 verbose tar unpacking to /vagrant/GmailApp/node_modules/.staging/http-signature-5cbaa8eb
+726 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/http-signature-5cbaa8eb is being purged
+727 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/http-signature-5cbaa8eb
+728 verbose tar unpack /home/vagrant/.npm/isarray/1.0.0/package.tgz
+729 verbose tar unpacking to /vagrant/GmailApp/node_modules/.staging/isarray-5b8dcf3c
+730 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/isarray-5b8dcf3c is being purged
+731 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/isarray-5b8dcf3c
+732 verbose tar unpack /home/vagrant/.npm/qs/4.0.0/package.tgz
+733 verbose tar unpacking to /vagrant/GmailApp/node_modules/.staging/qs-ba1602f1
+734 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/qs-ba1602f1 is being purged
+735 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/qs-ba1602f1
+736 verbose tar unpack /home/vagrant/.npm/readable-stream/2.0.6/package.tgz
+737 verbose tar unpacking to /vagrant/GmailApp/node_modules/.staging/readable-stream-403f1d83
+738 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/readable-stream-403f1d83 is being purged
+739 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/readable-stream-403f1d83
+740 verbose tar unpack /home/vagrant/.npm/bl/1.0.3/package.tgz
+741 verbose tar unpacking to /vagrant/GmailApp/node_modules/.staging/bl-917be3b6
+742 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/bl-917be3b6 is being purged
+743 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/bl-917be3b6
+744 verbose tar unpack /home/vagrant/.npm/request/2.60.0/package.tgz
+745 verbose tar unpacking to /vagrant/GmailApp/node_modules/.staging/request-b97d32c0
+746 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/request-b97d32c0 is being purged
+747 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/request-b97d32c0
+748 verbose tar unpack /home/vagrant/.npm/string-template/0.2.1/package.tgz
+749 verbose tar unpacking to /vagrant/GmailApp/node_modules/.staging/string-template-bab5daea
+750 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/string-template-bab5daea is being purged
+751 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/string-template-bab5daea
+752 verbose tar unpack /home/vagrant/.npm/google-auth-library/0.9.8/package.tgz
+753 verbose tar unpacking to /vagrant/GmailApp/node_modules/.staging/google-auth-library-32e787a9
+754 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/google-auth-library-32e787a9 is being purged
+755 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/google-auth-library-32e787a9
+756 silly gunzTarPerm modes [ '755', '644' ]
+757 silly gunzTarPerm modes [ '755', '644' ]
+758 silly gunzTarPerm modes [ '755', '644' ]
+759 silly gunzTarPerm modes [ '755', '644' ]
+760 verbose tar unpack /home/vagrant/.npm/har-validator/1.8.0/package.tgz
+761 verbose tar unpacking to /vagrant/GmailApp/node_modules/.staging/har-validator-5ac59e93
+762 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/har-validator-5ac59e93 is being purged
+763 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/har-validator-5ac59e93
+764 silly gunzTarPerm modes [ '755', '644' ]
+765 silly gunzTarPerm modes [ '755', '644' ]
+766 silly gunzTarPerm modes [ '755', '644' ]
+767 silly gunzTarPerm modes [ '755', '644' ]
+768 silly gunzTarPerm modes [ '755', '644' ]
+769 silly gunzTarPerm modes [ '755', '644' ]
+770 silly gunzTarPerm modes [ '755', '644' ]
+771 silly gunzTarPerm modes [ '755', '644' ]
+772 silly gunzTarPerm modes [ '755', '644' ]
+773 silly gunzTarPerm extractEntry package.json
+774 silly gunzTarPerm extractEntry .npmignore
+775 silly gunzTarPerm extractEntry package.json
+776 silly gunzTarPerm extractEntry package.json
+777 silly gunzTarPerm extractEntry package.json
+778 silly gunzTarPerm extractEntry package.json
+779 silly gunzTarPerm extractEntry package.json
+780 silly gunzTarPerm extractEntry package.json
+781 silly gunzTarPerm extractEntry package.json
+782 silly gunzTarPerm extractEntry package.json
+783 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+784 silly gunzTarPerm extractEntry package.json
+785 silly gunzTarPerm extractEntry package.json
+786 silly gunzTarPerm extractEntry package.json
+787 silly gunzTarPerm extractEntry README.md
+788 silly gunzTarPerm extractEntry assert.js
+789 silly gunzTarPerm extractEntry lib/
+790 silly gunzTarPerm extractEntry lib/ber/
+791 silly gunzTarPerm extractEntry LICENSE
+792 silly gunzTarPerm extractEntry CHANGELOG.md
+793 silly gunzTarPerm extractEntry README.md
+794 silly gunzTarPerm extractEntry LICENSE
+795 silly gunzTarPerm extractEntry .npmignore
+796 silly gunzTarPerm extractEntry README.md
+797 silly gunzTarPerm extractEntry .npmignore
+798 silly gunzTarPerm extractEntry README.md
+799 silly gunzTarPerm extractEntry .npmignore
+800 silly gunzTarPerm extractEntry README.md
+801 silly gunzTarPerm extractEntry .npmignore
+802 silly gunzTarPerm extractEntry README.md
+803 silly gunzTarPerm extractEntry .npmignore
+804 silly gunzTarPerm extractEntry README.md
+805 silly gunzTarPerm extractEntry .npmignore
+806 silly gunzTarPerm extractEntry LICENCE
+807 silly gunzTarPerm extractEntry .npmignore
+808 silly gunzTarPerm extractEntry README.md
+809 silly gunzTarPerm extractEntry README.md
+810 silly gunzTarPerm extractEntry LICENSE
+811 silly gunzTarPerm extractEntry .npmignore
+812 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+813 silly gunzTarPerm extractEntry README.md
+814 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+815 silly gunzTarPerm extractEntry lib/ber/errors.js
+816 silly gunzTarPerm extractEntry lib/ber/index.js
+817 silly gunzTarPerm extractEntry lib/ber/reader.js
+818 silly gunzTarPerm extractEntry index.js
+819 silly gunzTarPerm extractEntry index.js
+820 silly gunzTarPerm extractEntry test.js
+821 silly gunzTarPerm extractEntry LICENSE
+822 silly gunzTarPerm extractEntry CHANGELOG.md
+823 silly gunzTarPerm extractEntry LICENSE
+824 silly gunzTarPerm extractEntry .dir-locals.el
+825 silly gunzTarPerm extractEntry lib/async.js
+826 silly gunzTarPerm extractEntry LICENSE
+827 silly gunzTarPerm extractEntry writable.js
+828 silly gunzTarPerm extractEntry bl.js
+829 silly gunzTarPerm extractEntry .jshintrc
+830 silly gunzTarPerm extractEntry .travis.yml
+831 silly gunzTarPerm extractEntry LICENSE.md
+832 silly gunzTarPerm extractEntry test/test.js
+833 silly gunzTarPerm extractEntry .travis.yml
+834 silly gunzTarPerm extractEntry CHANGELOG.md
+835 silly gunzTarPerm extractEntry compile.js
+836 silly gunzTarPerm extractEntry index.js
+837 silly gunzTarPerm extractEntry LICENSE
+838 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+839 silly gunzTarPerm extractEntry bin/har-validator
+840 silly gunzTarPerm extractEntry lib/error.js
+841 silly gunzTarPerm modified mode [ 'lib/error.js', 438, 420 ]
+842 silly gunzTarPerm extractEntry lib/ber/types.js
+843 silly gunzTarPerm extractEntry lib/ber/writer.js
+844 silly gunzTarPerm extractEntry lib/index.js
+845 silly gunzTarPerm extractEntry LICENSE
+846 silly gunzTarPerm extractEntry package.json
+847 silly gunzTarPerm extractEntry README.md
+848 silly gunzTarPerm extractEntry tst/
+849 silly gunzTarPerm extractEntry tst/ber/
+850 silly gunzTarPerm extractEntry tst/ber/reader.test.js
+851 silly gunzTarPerm extractEntry tst/ber/writer.test.js
+852 silly gunzTarPerm extractEntry CONTRIBUTING.md
+853 silly gunzTarPerm extractEntry .travis.yml
+854 silly gunzTarPerm extractEntry Makefile
+855 silly gunzTarPerm extractEntry duplex.js
+856 silly gunzTarPerm extractEntry transform.js
+857 silly gunzTarPerm extractEntry http_signing.md
+858 silly gunzTarPerm extractEntry lib/index.js
+859 silly gunzTarPerm extractEntry lib/parser.js
+860 silly gunzTarPerm extractEntry lib/signer.js
+861 silly gunzTarPerm extractEntry lib/util.js
+862 silly gunzTarPerm extractEntry lib/verify.js
+863 silly gunzTarPerm extractEntry CONTRIBUTING.md
+864 silly gunzTarPerm extractEntry COPYING
+865 silly gunzTarPerm extractEntry .jshintrc
+866 silly gunzTarPerm extractEntry jsdoc-conf.json
+867 silly gunzTarPerm extractEntry lib/pemverifier.js
+868 silly gunzTarPerm extractEntry lib/transporters.js
+869 silly gunzTarPerm extractEntry lib/utils.js
+870 silly gunzTarPerm extractEntry lib/auth/authclient.js
+871 silly gunzTarPerm extractEntry lib/auth/computeclient.js
+872 silly gunzTarPerm extractEntry lib/auth/googleauth.js
+873 silly gunzTarPerm extractEntry lib/auth/iam.js
+874 silly gunzTarPerm extractEntry lib/auth/jwtaccess.js
+875 silly gunzTarPerm extractEntry lib/auth/jwtclient.js
+876 silly gunzTarPerm extractEntry lib/auth/loginticket.js
+877 silly gunzTarPerm extractEntry lib/auth/oauth2client.js
+878 silly gunzTarPerm extractEntry lib/auth/refreshclient.js
+879 silly gunzTarPerm extractEntry .travis.yml
+880 silly gunzTarPerm extractEntry Readme.md
+881 silly gunzTarPerm extractEntry index.js
+882 silly gunzTarPerm modified mode [ 'index.js', 509, 493 ]
+883 silly gunzTarPerm extractEntry request.js
+884 silly gunzTarPerm modified mode [ 'request.js', 436, 420 ]
+885 silly gunzTarPerm extractEntry disabled.appveyor.yml
+886 silly gunzTarPerm modified mode [ 'disabled.appveyor.yml', 436, 420 ]
+887 silly gunzTarPerm extractEntry lib/index.js
+888 silly gunzTarPerm extractEntry .travis.yml
+889 silly gunzTarPerm modified mode [ '.travis.yml', 436, 420 ]
+890 silly gunzTarPerm extractEntry examples/README.md
+891 silly gunzTarPerm modified mode [ 'examples/README.md', 436, 420 ]
+892 silly gunzTarPerm extractEntry passthrough.js
+893 silly gunzTarPerm extractEntry readable.js
+894 silly gunzTarPerm extractEntry .eslintignore
+895 silly gunzTarPerm extractEntry bower.json
+896 silly gunzTarPerm extractEntry component.json
+897 silly gunzTarPerm extractEntry lib/schemas/index.js
+898 silly gunzTarPerm extractEntry lib/schemas/log.json
+899 silly gunzTarPerm extractEntry CHANGELOG.md
+900 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+901 silly gunzTarPerm extractEntry lib/auth.js
+902 silly gunzTarPerm modified mode [ 'lib/auth.js', 436, 420 ]
+903 silly gunzTarPerm extractEntry lib/_stream_duplex.js
+904 silly gunzTarPerm extractEntry lib/_stream_passthrough.js
+905 silly gunzTarPerm extractEntry lib/index.js
+906 silly gunzTarPerm extractEntry lib/parse.js
+907 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/assert-plus-ee29e271/node_modules is being purged
+908 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/assert-plus-ee29e271/node_modules
+909 silly gunzTarPerm extractEntry lib/schemas/content.json
+910 silly gunzTarPerm extractEntry lib/schemas/cookie.json
+911 silly gunzTarPerm extractEntry lib/cookies.js
+912 silly gunzTarPerm modified mode [ 'lib/cookies.js', 436, 420 ]
+913 silly gunzTarPerm extractEntry lib/getProxyFromURI.js
+914 silly gunzTarPerm modified mode [ 'lib/getProxyFromURI.js', 436, 420 ]
+915 silly gunzTarPerm extractEntry lib/_stream_readable.js
+916 silly gunzTarPerm extractEntry lib/stringify.js
+917 silly gunzTarPerm extractEntry lib/utils.js
+918 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/aws-sign2-7a01567d/node_modules is being purged
+919 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/aws-sign2-7a01567d/node_modules
+920 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/async-be7d1804/node_modules is being purged
+921 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/async-be7d1804/node_modules
+922 silly gunzTarPerm extractEntry lib/schemas/creator.json
+923 silly gunzTarPerm extractEntry lib/schemas/entry.json
+924 silly gunzTarPerm extractEntry lib/har.js
+925 silly gunzTarPerm modified mode [ 'lib/har.js', 436, 420 ]
+926 silly gunzTarPerm extractEntry lib/helpers.js
+927 silly gunzTarPerm modified mode [ 'lib/helpers.js', 436, 420 ]
+928 silly gunzTarPerm extractEntry lib/multipart.js
+929 silly gunzTarPerm modified mode [ 'lib/multipart.js', 436, 420 ]
+930 silly gunzTarPerm extractEntry lib/oauth.js
+931 silly gunzTarPerm modified mode [ 'lib/oauth.js', 436, 420 ]
+932 silly gunzTarPerm extractEntry lib/_stream_transform.js
+933 silly gunzTarPerm extractEntry lib/_stream_writable.js
+934 silly gunzTarPerm extractEntry lib/querystring.js
+935 silly gunzTarPerm modified mode [ 'lib/querystring.js', 436, 420 ]
+936 silly gunzTarPerm extractEntry .travis.yml
+937 silly gunzTarPerm extractEntry test/parse.js
+938 silly gunzTarPerm extractEntry lib/schemas/har.json
+939 silly gunzTarPerm extractEntry lib/schemas/cache.json
+940 silly gunzTarPerm extractEntry .travis.yml
+941 silly gunzTarPerm extractEntry doc/stream.markdown
+942 silly gunzTarPerm extractEntry test/stringify.js
+943 silly gunzTarPerm extractEntry test/utils.js
+944 silly gunzTarPerm extractEntry lib/redirect.js
+945 silly gunzTarPerm modified mode [ 'lib/redirect.js', 436, 420 ]
+946 silly gunzTarPerm extractEntry lib/tunnel.js
+947 silly gunzTarPerm modified mode [ 'lib/tunnel.js', 436, 420 ]
+948 silly gunzTarPerm extractEntry doc/wg-meetings/2015-01-30.md
+949 silly gunzTarPerm extractEntry .zuul.yml
+950 silly gunzTarPerm extractEntry lib/schemas/cacheEntry.json
+951 silly gunzTarPerm extractEntry lib/schemas/page.json
+952 silly gunzTarPerm extractEntry CONTRIBUTING.md
+953 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 436, 420 ]
+954 silly gunzTarPerm extractEntry .eslintrc
+955 silly gunzTarPerm modified mode [ '.eslintrc', 436, 420 ]
+956 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/string-template-bab5daea/node_modules is being purged
+957 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/string-template-bab5daea/node_modules
+958 silly gunzTarPerm extractEntry release.sh
+959 silly gunzTarPerm modified mode [ 'release.sh', 509, 493 ]
+960 silly gunzTarPerm extractEntry lib/schemas/pageTimings.json
+961 silly gunzTarPerm extractEntry lib/schemas/postData.json
+962 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/isarray-5b8dcf3c/node_modules is being purged
+963 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/isarray-5b8dcf3c/node_modules
+964 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/bl-917be3b6/node_modules is being purged
+965 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/bl-917be3b6/node_modules
+966 silly gunzTarPerm extractEntry lib/schemas/record.json
+967 silly gunzTarPerm extractEntry lib/schemas/request.json
+968 silly gunzTarPerm extractEntry lib/schemas/response.json
+969 silly gunzTarPerm extractEntry lib/schemas/timings.json
+970 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/http-signature-5cbaa8eb/node_modules is being purged
+971 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/http-signature-5cbaa8eb/node_modules
+972 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/asn1-844b953c/node_modules is being purged
+973 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/asn1-844b953c/node_modules
+974 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/qs-ba1602f1/node_modules is being purged
+975 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/qs-ba1602f1/node_modules
+976 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/readable-stream-403f1d83/node_modules is being purged
+977 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/readable-stream-403f1d83/node_modules
+978 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/har-validator-5ac59e93/node_modules is being purged
+979 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/har-validator-5ac59e93/node_modules
+980 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/google-auth-library-32e787a9/node_modules is being purged
+981 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/google-auth-library-32e787a9/node_modules
+982 silly gentlyRm /vagrant/GmailApp/node_modules/.staging/request-b97d32c0/node_modules is being purged
+983 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/.staging/request-b97d32c0/node_modules
+984 silly doParallel preinstall 13
+985 silly preinstall asn1@0.1.11 /vagrant/GmailApp/node_modules/.staging/asn1-844b953c
+986 info lifecycle asn1@0.1.11~preinstall: asn1@0.1.11
+987 silly preinstall assert-plus@0.1.5 /vagrant/GmailApp/node_modules/.staging/assert-plus-ee29e271
+988 info lifecycle assert-plus@0.1.5~preinstall: assert-plus@0.1.5
+989 silly preinstall async@1.4.2 /vagrant/GmailApp/node_modules/.staging/async-be7d1804
+990 info lifecycle async@1.4.2~preinstall: async@1.4.2
+991 silly preinstall aws-sign2@0.5.0 /vagrant/GmailApp/node_modules/.staging/aws-sign2-7a01567d
+992 info lifecycle aws-sign2@0.5.0~preinstall: aws-sign2@0.5.0
+993 silly preinstall har-validator@1.8.0 /vagrant/GmailApp/node_modules/.staging/har-validator-5ac59e93
+994 info lifecycle har-validator@1.8.0~preinstall: har-validator@1.8.0
+995 silly preinstall http-signature@0.11.0 /vagrant/GmailApp/node_modules/.staging/http-signature-5cbaa8eb
+996 info lifecycle http-signature@0.11.0~preinstall: http-signature@0.11.0
+997 silly preinstall isarray@1.0.0 /vagrant/GmailApp/node_modules/.staging/isarray-5b8dcf3c
+998 info lifecycle isarray@1.0.0~preinstall: isarray@1.0.0
+999 silly preinstall qs@4.0.0 /vagrant/GmailApp/node_modules/.staging/qs-ba1602f1
+1000 info lifecycle qs@4.0.0~preinstall: qs@4.0.0
+1001 silly preinstall readable-stream@2.0.6 /vagrant/GmailApp/node_modules/.staging/readable-stream-403f1d83
+1002 info lifecycle readable-stream@2.0.6~preinstall: readable-stream@2.0.6
+1003 silly preinstall bl@1.0.3 /vagrant/GmailApp/node_modules/.staging/bl-917be3b6
+1004 info lifecycle bl@1.0.3~preinstall: bl@1.0.3
+1005 silly preinstall request@2.60.0 /vagrant/GmailApp/node_modules/.staging/request-b97d32c0
+1006 info lifecycle request@2.60.0~preinstall: request@2.60.0
+1007 silly preinstall string-template@0.2.1 /vagrant/GmailApp/node_modules/.staging/string-template-bab5daea
+1008 info lifecycle string-template@0.2.1~preinstall: string-template@0.2.1
+1009 silly preinstall google-auth-library@0.9.8 /vagrant/GmailApp/node_modules/.staging/google-auth-library-32e787a9
+1010 info lifecycle google-auth-library@0.9.8~preinstall: google-auth-library@0.9.8
+1011 silly lifecycle asn1@0.1.11~preinstall: no script for preinstall, continuing
+1012 silly lifecycle assert-plus@0.1.5~preinstall: no script for preinstall, continuing
+1013 silly lifecycle async@1.4.2~preinstall: no script for preinstall, continuing
+1014 silly lifecycle aws-sign2@0.5.0~preinstall: no script for preinstall, continuing
+1015 silly lifecycle har-validator@1.8.0~preinstall: no script for preinstall, continuing
+1016 silly lifecycle http-signature@0.11.0~preinstall: no script for preinstall, continuing
+1017 silly lifecycle isarray@1.0.0~preinstall: no script for preinstall, continuing
+1018 silly lifecycle qs@4.0.0~preinstall: no script for preinstall, continuing
+1019 silly lifecycle readable-stream@2.0.6~preinstall: no script for preinstall, continuing
+1020 silly lifecycle bl@1.0.3~preinstall: no script for preinstall, continuing
+1021 silly lifecycle request@2.60.0~preinstall: no script for preinstall, continuing
+1022 silly lifecycle string-template@0.2.1~preinstall: no script for preinstall, continuing
+1023 silly lifecycle google-auth-library@0.9.8~preinstall: no script for preinstall, continuing
+1024 silly doReverseSerial remove 0
+1025 silly doSerial move 0
+1026 silly doSerial finalize 13
+1027 silly finalize /vagrant/GmailApp/node_modules/google-auth-library/node_modules/asn1
+1028 silly finalize /vagrant/GmailApp/node_modules/google-auth-library/node_modules/assert-plus
+1029 silly finalize /vagrant/GmailApp/node_modules/google-auth-library/node_modules/async
+1030 silly finalize /vagrant/GmailApp/node_modules/google-auth-library/node_modules/aws-sign2
+1031 silly finalize /vagrant/GmailApp/node_modules/google-auth-library/node_modules/har-validator
+1032 silly finalize /vagrant/GmailApp/node_modules/google-auth-library/node_modules/http-signature
+1033 silly finalize /vagrant/GmailApp/node_modules/google-auth-library/node_modules/isarray
+1034 silly finalize /vagrant/GmailApp/node_modules/google-auth-library/node_modules/qs
+1035 silly finalize /vagrant/GmailApp/node_modules/google-auth-library/node_modules/readable-stream
+1036 silly finalize /vagrant/GmailApp/node_modules/google-auth-library/node_modules/bl
+1037 silly finalize /vagrant/GmailApp/node_modules/google-auth-library/node_modules/request
+1038 silly finalize /vagrant/GmailApp/node_modules/google-auth-library/node_modules/string-template
+1039 silly finalize /vagrant/GmailApp/node_modules/google-auth-library
+1040 silly doSerial build 13
+1041 silly build asn1@0.1.11
+1042 info linkStuff asn1@0.1.11
+1043 silly linkStuff asn1@0.1.11 has /vagrant/GmailApp/node_modules/google-auth-library/node_modules as its parent node_modules
+1044 verbose linkBins asn1@0.1.11
+1045 verbose linkMans asn1@0.1.11
+1046 silly build assert-plus@0.1.5
+1047 info linkStuff assert-plus@0.1.5
+1048 silly linkStuff assert-plus@0.1.5 has /vagrant/GmailApp/node_modules/google-auth-library/node_modules as its parent node_modules
+1049 verbose linkBins assert-plus@0.1.5
+1050 verbose linkMans assert-plus@0.1.5
+1051 silly build async@1.4.2
+1052 info linkStuff async@1.4.2
+1053 silly linkStuff async@1.4.2 has /vagrant/GmailApp/node_modules/google-auth-library/node_modules as its parent node_modules
+1054 verbose linkBins async@1.4.2
+1055 verbose linkMans async@1.4.2
+1056 silly build aws-sign2@0.5.0
+1057 info linkStuff aws-sign2@0.5.0
+1058 silly linkStuff aws-sign2@0.5.0 has /vagrant/GmailApp/node_modules/google-auth-library/node_modules as its parent node_modules
+1059 verbose linkBins aws-sign2@0.5.0
+1060 verbose linkMans aws-sign2@0.5.0
+1061 silly build har-validator@1.8.0
+1062 info linkStuff har-validator@1.8.0
+1063 silly linkStuff har-validator@1.8.0 has /vagrant/GmailApp/node_modules/google-auth-library/node_modules as its parent node_modules
+1064 verbose linkBins har-validator@1.8.0
+1065 verbose link bins [ { 'har-validator': 'bin/har-validator' },
+1065 verbose link bins   '/vagrant/GmailApp/node_modules/google-auth-library/node_modules/.bin',
+1065 verbose link bins   false ]
+1066 verbose linkMans har-validator@1.8.0
+1067 silly gentlyRm /vagrant/GmailApp/node_modules/google-auth-library/node_modules/.bin/har-validator is being purged
+1068 verbose gentlyRm don't care about contents; nuking /vagrant/GmailApp/node_modules/google-auth-library/node_modules/.bin/har-validator
+1069 verbose unlock done using /home/vagrant/.npm/_locks/staging-453d7b5ab8195345.lock for /vagrant/GmailApp/node_modules/.staging
+1070 silly rollbackFailedOptional Starting
+1071 silly rollbackFailedOptional Finishing
+1072 silly runTopLevelLifecycles Starting
+1073 silly runTopLevelLifecycles Finishing
+1074 silly install printInstalled
+1075 warn exit@1.0.0 No description
+1076 warn exit@1.0.0 No repository field.
+1077 verbose stack Error: EPROTO: protocol error, symlink '../har-validator/bin/har-validator' -> '/vagrant/GmailApp/node_modules/google-auth-library/node_modules/.bin/har-validator'
+1077 verbose stack     at Error (native)
+1078 verbose cwd /vagrant/GmailApp
+1079 error Linux 4.2.0-22-generic
+1080 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "google-auth-library" "--save"
+1081 error node v5.12.0
+1082 error npm  v3.8.6
+1083 error path ../har-validator/bin/har-validator
+1084 error code EPROTO
+1085 error errno -71
+1086 error syscall symlink
+1087 error EPROTO: protocol error, symlink '../har-validator/bin/har-validator' -> '/vagrant/GmailApp/node_modules/google-auth-library/node_modules/.bin/har-validator'
+1088 error If you need help, you may report this error at:
+1088 error     <https://github.com/npm/npm/issues>
+1089 verbose exit [ -71, true ]

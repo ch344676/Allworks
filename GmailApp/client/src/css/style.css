@@ -1,0 +1,22 @@
+body{
+    margin-top: 50px;
+}
+
+.search-form{
+    width: 100%;
+    margin: auto;
+    background: green;
+    padding: 0 20px 20px 20px;
+    border: 1px #ccc solid;
+    border-radius: 20px;
+}
+
+img{
+    height : 50%;
+    width: 80%;
+}
+
+.thumbnail {
+  height : 50%;
+  width: 80%;
+}
